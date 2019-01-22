@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="appbar.database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.ribbon.wave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.ribbon.wave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Editor-Teacher-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\Editor-Teacher-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1472758637_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\1472758637_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1472758703_invoice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\1472758703_invoice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.stock.up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.stock.up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.home.garage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.home.garage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.book" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.book.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="word" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\word.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.notification" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.notification.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.add.multiple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.add.multiple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.cell.insert.above" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.cell.insert.above.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows-10-3D-wallpaper-HD-backgrounds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows-10-3D-wallpaper-HD-backgrounds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="format_inconnu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\format_inconnu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1472908811_book_text_settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\1472908811_book_text_settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.clear.reflect.horizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.clear.reflect.horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map-abstract-black-textures-1920x1200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map-abstract-black-textures-1920x1200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.section.collapse.all" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.section.collapse.all.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="simple_blue_background-wallpaper-2560x16001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\simple_blue_background-wallpaper-2560x16001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riviera. (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riviera. (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.lamp.desk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.lamp.desk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.clipboard.paper.check" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.clipboard.paper.check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.grid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.grid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="text-x-authors1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\text-x-authors1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.section.expand1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.section.expand.all1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Saving Book-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Saving Book-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sky_colors_gradient_by_eminems13-d4ace99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sky_colors_gradient_by_eminems13-d4ace99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings Filled-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Settings Filled-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Young-Employee-1024x436" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Young-Employee-1024x436.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slika2-samsara-page" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\slika2-samsara-page.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11025951_826452584101017_1433147368555836349_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11025951_826452584101017_1433147368555836349_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.team" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.team.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.billing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.billing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.gift" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.gift.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Contacts-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Contacts-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.people4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.people.multiple3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.clipboard.paste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.clipboard.paste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.home.empty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.home.empty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shopping Cart Loaded-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shopping Cart Loaded-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potter10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\potter10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.forklift.load" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.forklift.load.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User Group Man Man-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User Group Man Man-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.cog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.cog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.page.add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.page.add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.book1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.book.list1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AAEAAQAAAAAAAAj3AAAAJDg0YWQwM2FmLTQ5Y2EtNDgwYi1hOWZlLWQ4ZGIwNGY2ZWJhYQ1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AAEAAQAAAAAAAAj3AAAAJDg0YWQwM2FmLTQ5Y2EtNDgwYi1hOWZlLWQ4ZGIwNGY2ZWJhYQ1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1472759637_report_user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\1472759637_report_user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.clipboard.variant3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.clipboard.variant.text3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icone_32-ajouter_panier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icone_32-ajouter_panier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AAEAAQAAAAAAAAj3AAAAJDg0YWQwM2FmLTQ5Y2EtNDgwYi1hOWZlLWQ4ZGIwNGY2ZWJhYQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AAEAAQAAAAAAAAj3AAAAJDg0YWQwM2FmLTQ5Y2EtNDgwYi1hOWZlLWQ4ZGIwNGY2ZWJhYQ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.network.server.connecting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.network.server.connecting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.cabinet.files" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.cabinet.files.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.section.expand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.section.expand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.notification.star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.notification.star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.section.expand.all" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.section.expand.all.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.clipboard.paper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.clipboard.paper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.cogs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.cogs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.people3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.people.profile1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.list.check" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.list.check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.deeplink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.deeplink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exhibitions_image-a1f651e6b3b92dbe259fa66e11e759c7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exhibitions_image-a1f651e6b3b92dbe259fa66e11e759c7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Checkout-521" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Checkout-521.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.clipboard.variant2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.clipboard.variant.text2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="History-of-Literature" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\History-of-Literature.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.section.collapse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.section.collapse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.clipboard.variant.edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.clipboard.variant.edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="simple_blue_background-wallpaper-2560x1600" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\simple_blue_background-wallpaper-2560x1600.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.group" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.group.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.book.list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.book.list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black-White Gradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Black-White Gradient.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="my-documents-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\my-documents-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.people.profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.people.profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Data Backup-52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Data Backup-52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slide-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\slide-11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="access" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\access.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.book2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.book.list2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.book.hardcover.open.writing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.book.hardcover.open.writing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mathematics and Statistics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mathematics and Statistics.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.social.dropbox.download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.social.dropbox.download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1472908743_book_text_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\1472908743_book_text_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder-My-documents-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Folder-My-documents-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Checkout-52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Checkout-52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.people1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.people.multiple1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User Groups-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User Groups-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteVinil-Seat-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\WhiteVinil-Seat-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mountain_Dim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mountain_Dim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black design wallpaper 08 2560x1440" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Black design wallpaper 08 2560x1440.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.list.add.above" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.list.add.above.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1472760815_my-invoices" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\1472760815_my-invoices.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Documents-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Documents-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.clipboard.variant1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.clipboard.variant.text1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.clipboard.variant4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.clipboard.variant.edit1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="precedent-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\precedent-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="livre-étagère1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\livre-étagère1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\excel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.people.multiple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.people.multiple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.cart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.cart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="txt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\txt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="157018" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\157018.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gift-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\Gift-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="education-and-training-insync-corporate-healthcare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\education-and-training-insync-corporate-healthcare.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thumb-350-697523" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumb-350-697523.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.greek.sigma.uppercase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.greek.sigma.uppercase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.money" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.money.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1472916222_category" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\1472916222_category.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fotolia_18656753_S1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fotolia_18656753_S1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="retour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\retour.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="books_texture3028" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\books_texture3028.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.clipboard.variant.text" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.clipboard.variant.text.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fotolia_18656753_S" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fotolia_18656753_S.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="livre-étagère" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\livre-étagère.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1472908787_Address_Book_Alt_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\1472908787_Address_Book_Alt_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.people2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.people.multiple2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.page.text" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.page.text.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="library-elegant-hd-wallpaper-14294396793" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\library-elegant-hd-wallpaper-14294396793.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stony-Island-Arts-Bank-Rebuild-Foundation-1 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stony-Island-Arts-Bank-Rebuild-Foundation-1 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powerpoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powerpoint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.power" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.power.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1472916389_category" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\1472916389_category.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.social.readability" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.social.readability.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="162826355" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\162826355.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.user.add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.user.add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1472908835_book_sans_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\1472908835_book_sans_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2362561_orig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2362561_orig.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="text-x-authors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\text-x-authors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mountain_Dim1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mountain_Dim1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.user.tie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.user.tie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1472760122_x-office-spreadsheet-template" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\1472760122_x-office-spreadsheet-template.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Open Folder Filled-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Open Folder Filled-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.layer.arrange.sendbackward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.layer.arrange.sendbackward.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gradient-black-to-transparent-wallpaper-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gradient-black-to-transparent-wallpaper-4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.clipboard.paper1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.clipboard.paper.check1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.alien" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.alien.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Product-sale-report-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Product-sale-report-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appbar.server" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appbar.server.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AJeiGyb41VXntNdZFmy-iQBydeg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AJeiGyb41VXntNdZFmy-iQBydeg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

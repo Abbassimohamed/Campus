@@ -1,0 +1,734 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NewCampusModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="agent">
+    <Key>
+      <PropertyRef Name="idagent" />
+    </Key>
+    <Property Name="idagent" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cin" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nom" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="prenom" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="numtel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="specialite" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="auteur">
+    <Key>
+      <PropertyRef Name="codeauteur" />
+    </Key>
+    <Property Name="codeauteur" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="numeroaut" Type="Int32" />
+    <Property Name="nom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="prenom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="tel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="adr" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="institution" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="specialite" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ville" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="codepostal" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="web" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="image" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="cin" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="fax" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Avoir">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="numeroavoir" Type="Int32" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <Property Name="idclt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="client" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="montant" Type="Double" />
+    <Property Name="remise" Type="Double" />
+    <Property Name="montanttotal" Type="Double" />
+    <Property Name="Comment" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Banque">
+    <Key>
+      <PropertyRef Name="idbanque" />
+    </Key>
+    <Property Name="idbanque" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombanque" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="rib" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="soldeinitial" Type="Double" />
+  </EntityType>
+  <EntityType Name="bon_commande">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="numero_bc" Type="Int32" />
+    <Property Name="date_ajout" Type="DateTime" Precision="3" />
+    <Property Name="etat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="montant" Type="Double" />
+    <Property Name="remise" Type="Double" />
+    <Property Name="prixremise" Type="Double" />
+    <Property Name="id_clt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="client" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="numerodevis" Type="Int32" />
+    <Property Name="comment" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="bon_livraison">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="numero_bl" Type="Int32" />
+    <Property Name="date_ajout" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="etat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="montant_BL" Type="Double" />
+    <Property Name="remise" Type="Double" />
+    <Property Name="prixremise" Type="Double" />
+    <Property Name="id_clt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="client" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="id_fact" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="id_commande" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="comment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="adresse" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="tel" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="bon_sortie">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="numero_bs" Type="Int32" />
+    <Property Name="date_ajout" Type="DateTime" Precision="0" />
+    <Property Name="etat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="montant_BS" Type="Double" />
+    <Property Name="id_clt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="client" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="id_fact" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="id_commande" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="nbcmd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="mode_livraison" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="moyen_livraison" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="lieu_livraison" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="remise" Type="Double" />
+    <Property Name="totalSansRemise" Type="Double" />
+    <Property Name="L_num_bl" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="BonRetour">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <Property Name="idfr" Type="Int32" />
+    <Property Name="nomfr" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="numerocumul" Type="Int32" />
+    <Property Name="type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="client">
+    <Key>
+      <PropertyRef Name="codeclient" />
+    </Key>
+    <Property Name="codeclient" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="numerocl" Type="Int32" />
+    <Property Name="raisonsoc" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="resp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="qualite" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="tel" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="mobile" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="adresse" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="codepostal" Type="Int32" />
+    <Property Name="ville" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="web" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="fax" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="CumulEnt">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <Property Name="idfr" Type="Int32" />
+    <Property Name="nomfr" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="numerocumul" Type="Int32" />
+    <Property Name="type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Cumulsortie">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <Property Name="idfr" Type="Int32" />
+    <Property Name="nomfr" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="numerocumul" Type="Int32" />
+    <Property Name="type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="devis">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="numero_devis" Type="Int32" />
+    <Property Name="date_ajout" Type="DateTime" Precision="0" />
+    <Property Name="id_clt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="client" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="totalSansRemise" Type="Double" />
+    <Property Name="remise" Type="Double" />
+    <Property Name="montant_devis" Type="Double" />
+    <Property Name="etat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="comment" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Dossierpublication">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ndossier" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="titre" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="discipline" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="idauteur" Type="Int32" />
+    <Property Name="auteur" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="datedepo" Type="DateTime" Precision="0" />
+    <Property Name="support" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="nbpage" Type="Int32" />
+    <Property Name="format" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="formatpapierinter" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="nbpagenormal" Type="Int32" />
+    <Property Name="nbpagecolor" Type="Int32" />
+    <Property Name="couverture" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="finition" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="nboncommande" Type="Int32" />
+    <Property Name="datecommande" Type="DateTime" Precision="0" />
+    <Property Name="idimp" Type="Int32" />
+    <Property Name="imp" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="tirage" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="reedition" Type="Boolean" />
+    <Property Name="nedition" Type="Int32" />
+    <Property Name="coedition" Type="Boolean" />
+    <Property Name="coediteur" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="contratcoedition" Type="Boolean" />
+    <Property Name="bcmdcoedit" Type="Boolean" />
+    <Property Name="isbn" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="prix" Type="Double" />
+  </EntityType>
+  <EntityType Name="Droit">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="prenom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="gsm" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="fonction" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="utilisabilite" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GestClt" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="GestAut" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="GestSt" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="GestVente" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="GestDup" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="GestStat" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="GestRapp" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="GestCompta" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="GestPub" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="GestAdmin" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="GestFr" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="GestDon" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="GestFourniture" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="GestDevis" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="emplacement">
+    <Key>
+      <PropertyRef Name="idemp" />
+    </Key>
+    <Property Name="idemp" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="empdesign" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Facture">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NumeroFacture" Type="Int32" />
+    <Property Name="date_ajout" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="id_clt" Type="Int32" />
+    <Property Name="intitule" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Adresse" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Telephone" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="L_num_bl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="quittance" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="datequittance" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Titre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Montantbrut" Type="Double" />
+    <Property Name="remise" Type="Double" />
+    <Property Name="totalremise" Type="Double" />
+    <Property Name="montantnet" Type="Double" />
+  </EntityType>
+  <EntityType Name="FactureDetail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nfacture" Type="Int32" />
+    <Property Name="nligne" Type="Int32" />
+    <Property Name="date" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="client" Type="Int32" />
+    <Property Name="article" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="quantite" Type="Double" />
+    <Property Name="pu" Type="Double" />
+  </EntityType>
+  <EntityType Name="facturevente">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="numero_fact" Type="Int32" />
+    <Property Name="date_ajout" Type="DateTime" Precision="0" />
+    <Property Name="id_clt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="client" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="montant_hr" Type="Double" />
+    <Property Name="remise" Type="Double" />
+    <Property Name="montant" Type="Double" />
+    <Property Name="retenusource" Type="Double" />
+    <Property Name="id_bl" Type="Int32" />
+    <Property Name="L_num_bl" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="RefCmd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="etat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="reste" Type="Double" />
+    <Property Name="quittance" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="datequittance" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="famille">
+    <Key>
+      <PropertyRef Name="idfamille" />
+    </Key>
+    <Property Name="idfamille" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="familledesign" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ficheauteur">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="prenom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="telephone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="fax" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="presentation" Type="Boolean" />
+    <Property Name="fichepresentation" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="extpr" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="biographie" Type="Boolean" />
+    <Property Name="resumebiographie" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="extbiog" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="photoauteur" Type="Boolean" />
+    <Property Name="photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="extphoto" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="couverture" Type="Boolean" />
+    <Property Name="propositioncouvert" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="extcouv" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="ndossier" Type="Int32" />
+  </EntityType>
+  <EntityType Name="fichesuivi">
+    <Key>
+      <PropertyRef Name="idfiche" />
+    </Key>
+    <Property Name="idfiche" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ndossier" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="idagent" Type="Int32" />
+    <Property Name="agent" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="datereception" Type="DateTime" Precision="0" />
+    <Property Name="observation" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="datemaj" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="fournisseur">
+    <Key>
+      <PropertyRef Name="codefr" />
+    </Key>
+    <Property Name="codefr" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="numerofr" Type="Int32" />
+    <Property Name="raisonfr" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="responsable" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="mobile" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="tel" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="adress" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ville" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="web" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="codepostal" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="image" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Fourniture">
+    <Key>
+      <PropertyRef Name="idfour" />
+    </Key>
+    <Property Name="idfour" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="codefour" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="famille" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="idfamille" Type="Int32" />
+    <Property Name="sousfamille" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="idsousfamille" Type="Int32" />
+    <Property Name="designation" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="fournisseur" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="quantitenstock" Type="Double" />
+    <Property Name="prixAchat" Type="Double" />
+    <Property Name="image" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="seuil" Type="Double" />
+  </EntityType>
+  <EntityType Name="ligne_avoir">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_avoir" Type="Int32" />
+    <Property Name="code_art" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="designation" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="quantite" Type="Double" />
+    <Property Name="puv" Type="Double" />
+    <Property Name="total" Type="Double" />
+    <Property Name="remise" Type="Double" />
+    <Property Name="prixremise" Type="Double" />
+    <Property Name="idauteur" Type="Int32" />
+    <Property Name="etatpaiement" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="comment" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ligne_bc">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_bc" Type="Int32" />
+    <Property Name="code_art" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="designation_article" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="quantite_article" Type="Double" />
+    <Property Name="puv" Type="Double" />
+    <Property Name="totvente" Type="Double" />
+    <Property Name="remise" Type="Double" />
+    <Property Name="prixremis" Type="Double" />
+    <Property Name="idauteur" Type="Int32" />
+    <Property Name="qtitservi" Type="Double" />
+    <Property Name="qtitrest" Type="Double" />
+  </EntityType>
+  <EntityType Name="ligne_bl">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_bl" Type="Int32" />
+    <Property Name="code_art" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="designation_article" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="quantite_article" Type="Double" />
+    <Property Name="puv" Type="Double" />
+    <Property Name="total" Type="Double" />
+    <Property Name="remise" Type="Double" />
+    <Property Name="prixremise" Type="Double" />
+    <Property Name="idauteur" Type="Int32" />
+    <Property Name="etatpaiement" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="idcmd" Type="Int32" />
+    <Property Name="numligne" Type="Int32" />
+    <Property Name="date" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="client" Type="Int32" />
+  </EntityType>
+  <EntityType Name="ligne_bs">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_bs" Type="Int32" />
+    <Property Name="code_art" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="designation_article" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="quantite_article" Type="Double" />
+    <Property Name="puv" Type="Double" />
+    <Property Name="remise" Type="Double" />
+    <Property Name="prixRemise" Type="Double" />
+    <Property Name="total" Type="Double" />
+  </EntityType>
+  <EntityType Name="ligne_devis">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_devis" Type="Int32" />
+    <Property Name="code_art" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="designation_article" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="quantite_article" Type="Double" />
+    <Property Name="puv" Type="Double" />
+    <Property Name="remise" Type="Double" />
+    <Property Name="totalsansremise" Type="Double" />
+    <Property Name="total" Type="Double" />
+    <Property Name="idauteur" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Livre">
+    <Key>
+      <PropertyRef Name="Rang" />
+    </Key>
+    <Property Name="Rang" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="codeart" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="titre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="dateedition" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="imprimerie" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="auteur" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="isbn" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="codeabarre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="quantitenstock" Type="Double" />
+    <Property Name="prixachat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="pvpublic" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="pvetudiant" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="pvfoire" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="pvdepositaire" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="image" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="emplacement" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="famille" Type="Int32" />
+    <Property Name="qtitreelle" Type="Double" />
+    <Property Name="stockalert" Type="Double" />
+  </EntityType>
+  <EntityType Name="Piece_bonret">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Codecumul" Type="Int32" />
+    <Property Name="Codearticle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="nomart" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="quantite" Type="Double" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="Piece_cumulent">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Codecumul" Type="Int32" />
+    <Property Name="Codearticle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="nomart" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="quantite" Type="Double" />
+    <Property Name="pua" Type="Double" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="Piece_cumulsortie">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Codecumul" Type="Int32" />
+    <Property Name="Codearticle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="nomart" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="quantite" Type="Double" />
+    <Property Name="puv" Type="Double" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="piece_fact">
+    <Key>
+      <PropertyRef Name="id_piece" />
+    </Key>
+    <Property Name="id_piece" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="code_piece_u" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="libelle_piece_u" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="quantite_piece_u" Type="Double" />
+    <Property Name="id_fact" Type="Int32" />
+    <Property Name="puv" Type="Double" />
+    <Property Name="remise" Type="Double" />
+    <Property Name="pv" Type="Double" />
+    <Property Name="idauteur" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Quittance">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nquiitance" Type="Int32" />
+    <Property Name="datequittance" Type="DateTime" Precision="0" />
+    <Property Name="nfact" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="idclient" Type="Int32" />
+    <Property Name="total" Type="Double" />
+    <Property Name="remise" Type="Double" />
+    <Property Name="netapayer" Type="Double" />
+    <Property Name="mode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Reglement">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="DateTime" Precision="3" />
+    <Property Name="nfacture" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="idclient" Type="Int32" />
+    <Property Name="montant" Type="Double" />
+    <Property Name="remise" Type="Double" />
+    <Property Name="netapayer" Type="Double" />
+    <Property Name="typereglement" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="banque" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="RIB" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ndoc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="echeance" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="reservation">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ncmd" Type="Int32" />
+    <Property Name="article" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="date" Type="DateTime" Precision="3" />
+    <Property Name="quantit" Type="Double" />
+  </EntityType>
+  <EntityType Name="societe">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rsoc" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="adresse" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="codpost" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ville" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="mobile" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="tel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="fax" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="siteweb" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="logo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="assujetitva" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="numtva" Type="Double" />
+    <Property Name="activite" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="nomresp" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="formejuridique" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="matfisc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="sousfamille">
+    <Key>
+      <PropertyRef Name="idsousfamille" />
+    </Key>
+    <Property Name="idsousfamille" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="familleid" Type="Int32" />
+    <Property Name="familledesign" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sousfamilledesign" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="specialite">
+    <Key>
+      <PropertyRef Name="idsp" />
+    </Key>
+    <Property Name="idsp" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="designation" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="NewCampusEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="agent" EntityType="Self.agent" />
+    <EntitySet Name="auteur" EntityType="Self.auteur" />
+    <EntitySet Name="Avoir" EntityType="Self.Avoir" />
+    <EntitySet Name="Banque" EntityType="Self.Banque" />
+    <EntitySet Name="bon_commande" EntityType="Self.bon_commande" />
+    <EntitySet Name="bon_livraison" EntityType="Self.bon_livraison" />
+    <EntitySet Name="bon_sortie" EntityType="Self.bon_sortie" />
+    <EntitySet Name="BonRetour" EntityType="Self.BonRetour" />
+    <EntitySet Name="client" EntityType="Self.client" />
+    <EntitySet Name="CumulEnt" EntityType="Self.CumulEnt" />
+    <EntitySet Name="Cumulsortie" EntityType="Self.Cumulsortie" />
+    <EntitySet Name="devis" EntityType="Self.devis" />
+    <EntitySet Name="Dossierpublication" EntityType="Self.Dossierpublication" />
+    <EntitySet Name="Droit" EntityType="Self.Droit" />
+    <EntitySet Name="emplacement" EntityType="Self.emplacement" />
+    <EntitySet Name="Facture" EntityType="Self.Facture" />
+    <EntitySet Name="FactureDetail" EntityType="Self.FactureDetail" />
+    <EntitySet Name="facturevente" EntityType="Self.facturevente" />
+    <EntitySet Name="famille" EntityType="Self.famille" />
+    <EntitySet Name="ficheauteur" EntityType="Self.ficheauteur" />
+    <EntitySet Name="fichesuivi" EntityType="Self.fichesuivi" />
+    <EntitySet Name="fournisseur" EntityType="Self.fournisseur" />
+    <EntitySet Name="Fourniture" EntityType="Self.Fourniture" />
+    <EntitySet Name="ligne_avoir" EntityType="Self.ligne_avoir" />
+    <EntitySet Name="ligne_bc" EntityType="Self.ligne_bc" />
+    <EntitySet Name="ligne_bl" EntityType="Self.ligne_bl" />
+    <EntitySet Name="ligne_bs" EntityType="Self.ligne_bs" />
+    <EntitySet Name="ligne_devis" EntityType="Self.ligne_devis" />
+    <EntitySet Name="Livre" EntityType="Self.Livre" />
+    <EntitySet Name="Piece_bonret" EntityType="Self.Piece_bonret" />
+    <EntitySet Name="Piece_cumulent" EntityType="Self.Piece_cumulent" />
+    <EntitySet Name="Piece_cumulsortie" EntityType="Self.Piece_cumulsortie" />
+    <EntitySet Name="piece_fact" EntityType="Self.piece_fact" />
+    <EntitySet Name="Quittance" EntityType="Self.Quittance" />
+    <EntitySet Name="Reglement" EntityType="Self.Reglement" />
+    <EntitySet Name="reservation" EntityType="Self.reservation" />
+    <EntitySet Name="societe" EntityType="Self.societe" />
+    <EntitySet Name="sousfamille" EntityType="Self.sousfamille" />
+    <EntitySet Name="specialite" EntityType="Self.specialite" />
+    <FunctionImport Name="SelectArticle" ReturnType="Collection(NewCampusModel.SelectArticle_Result)" />
+    <FunctionImport Name="spFindlistartstartby" EntitySet="Livre" ReturnType="Collection(NewCampusModel.Livre)">
+      <Parameter Name="vartext" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="spRapportArt" EntitySet="piece_fact" ReturnType="Collection(NewCampusModel.piece_fact)">
+      <Parameter Name="codep" Mode="In" Type="String" />
+      <Parameter Name="date1" Mode="In" Type="DateTime" />
+      <Parameter Name="date2" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="getartinfo" ReturnType="Collection(NewCampusModel.getartinfo_Result)" />
+    <FunctionImport Name="findArtbref" ReturnType="Collection(NewCampusModel.findArtbref_Result)" />
+    <EntitySet Name="InfoLivre" EntityType="NewCampusModel.InfoLivre" />
+  </EntityContainer>
+  <ComplexType Name="SelectArticle_Result">
+    <Property Type="String" Name="codeart" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="titre" Nullable="true" />
+    <Property Type="String" Name="isbn" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="spFindlistartstartby_Result">
+    <Property Type="Int32" Name="Rang" Nullable="false" />
+    <Property Type="String" Name="codeart" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="titre" Nullable="true" />
+    <Property Type="String" Name="dateedition" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="imprimerie" Nullable="true" />
+    <Property Type="String" Name="auteur" Nullable="true" />
+    <Property Type="String" Name="isbn" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="codeabarre" Nullable="true" MaxLength="50" />
+    <Property Type="Double" Name="quantitenstock" Nullable="true" />
+    <Property Type="String" Name="prixachat" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="pvpublic" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="pvetudiant" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="pvfoire" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="pvdepositaire" Nullable="true" MaxLength="50" />
+    <Property Type="Binary" Name="image" Nullable="true" MaxLength="Max" />
+    <Property Type="String" Name="emplacement" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="famille" Nullable="true" />
+    <Property Type="Double" Name="qtitreelle" Nullable="true" />
+    <Property Type="Double" Name="stockalert" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="spRapportArt_Result">
+    <Property Type="Int32" Name="id_piece" Nullable="false" />
+    <Property Type="String" Name="code_piece_u" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="libelle_piece_u" Nullable="true" MaxLength="300" />
+    <Property Type="Double" Name="quantite_piece_u" Nullable="true" />
+    <Property Type="Int32" Name="id_fact" Nullable="true" />
+    <Property Type="Double" Name="puv" Nullable="true" />
+    <Property Type="Double" Name="remise" Nullable="true" />
+    <Property Type="Double" Name="pv" Nullable="true" />
+    <Property Type="Int32" Name="idauteur" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="getartinfo_Result">
+    <Property Type="String" Name="codeart" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="titre" Nullable="true" />
+    <Property Type="Double" Name="quantitenstock" Nullable="true" />
+    <Property Type="Double" Name="qtitreelle" Nullable="true" />
+    <Property Type="Double" Name="stockalert" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="findArtbref_Result">
+    <Property Type="Int32" Name="Rang" Nullable="false" />
+    <Property Type="String" Name="codeart" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="titre" Nullable="true" />
+    <Property Type="String" Name="imprimerie" Nullable="true" />
+    <Property Type="String" Name="auteur" Nullable="true" />
+    <Property Type="String" Name="isbn" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="codeabarre" Nullable="true" MaxLength="50" />
+    <Property Type="Double" Name="quantitenstock" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="InfoLivre">
+    <Key>
+      <PropertyRef Name="Rang" />
+    </Key>
+    <Property Name="Rang" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="codeart" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="titre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="imprimerie" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="auteur" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="isbn" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="codeabarre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="quantitenstock" Type="Double" />
+  </EntityType>
+</Schema>

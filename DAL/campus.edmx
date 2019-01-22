@@ -1,0 +1,2164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="NewCampusModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="agent">
+          <Key>
+            <PropertyRef Name="idagent" />
+          </Key>
+          <Property Name="idagent" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="cin" Type="varchar" MaxLength="50" />
+          <Property Name="nom" Type="nvarchar" MaxLength="100" />
+          <Property Name="prenom" Type="nvarchar" MaxLength="100" />
+          <Property Name="numtel" Type="varchar" MaxLength="50" />
+          <Property Name="email" Type="varchar" MaxLength="50" />
+          <Property Name="specialite" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="auteur">
+          <Key>
+            <PropertyRef Name="codeauteur" />
+          </Key>
+          <Property Name="codeauteur" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="numeroaut" Type="int" />
+          <Property Name="nom" Type="nvarchar" MaxLength="50" />
+          <Property Name="prenom" Type="nvarchar" MaxLength="50" />
+          <Property Name="tel" Type="nvarchar" MaxLength="50" />
+          <Property Name="adr" Type="nvarchar" MaxLength="50" />
+          <Property Name="email" Type="nvarchar" MaxLength="50" />
+          <Property Name="institution" Type="nvarchar" MaxLength="50" />
+          <Property Name="specialite" Type="nvarchar" MaxLength="50" />
+          <Property Name="ville" Type="nvarchar" MaxLength="50" />
+          <Property Name="codepostal" Type="nvarchar" MaxLength="50" />
+          <Property Name="web" Type="nvarchar" MaxLength="50" />
+          <Property Name="image" Type="image" />
+          <Property Name="cin" Type="varchar" MaxLength="50" />
+          <Property Name="fax" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Avoir">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="numeroavoir" Type="int" />
+          <Property Name="date" Type="date" />
+          <Property Name="idclt" Type="nvarchar" MaxLength="50" />
+          <Property Name="client" Type="nvarchar" MaxLength="50" />
+          <Property Name="montant" Type="float" />
+          <Property Name="remise" Type="float" />
+          <Property Name="montanttotal" Type="float" />
+          <Property Name="Comment" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="Banque">
+          <Key>
+            <PropertyRef Name="idbanque" />
+          </Key>
+          <Property Name="idbanque" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nombanque" Type="nvarchar" MaxLength="50" />
+          <Property Name="rib" Type="nvarchar" MaxLength="50" />
+          <Property Name="soldeinitial" Type="float" />
+        </EntityType>
+        <EntityType Name="bon_commande">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="numero_bc" Type="int" />
+          <Property Name="date_ajout" Type="datetime" />
+          <Property Name="etat" Type="nvarchar" MaxLength="50" />
+          <Property Name="montant" Type="float" />
+          <Property Name="remise" Type="float" />
+          <Property Name="prixremise" Type="float" />
+          <Property Name="id_clt" Type="nvarchar" MaxLength="50" />
+          <Property Name="client" Type="nvarchar" MaxLength="50" />
+          <Property Name="numerodevis" Type="int" />
+          <Property Name="comment" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="bon_livraison">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="numero_bl" Type="int" />
+          <Property Name="date_ajout" Type="nvarchar(max)" />
+          <Property Name="etat" Type="nvarchar" MaxLength="50" />
+          <Property Name="montant_BL" Type="float" />
+          <Property Name="remise" Type="float" />
+          <Property Name="prixremise" Type="float" />
+          <Property Name="id_clt" Type="nvarchar" MaxLength="50" />
+          <Property Name="client" Type="nvarchar(max)" />
+          <Property Name="id_fact" Type="nvarchar" MaxLength="50" />
+          <Property Name="id_commande" Type="nvarchar" MaxLength="50" />
+          <Property Name="comment" Type="nvarchar(max)" />
+          <Property Name="adresse" Type="nvarchar(max)" />
+          <Property Name="tel" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="bon_sortie">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="numero_bs" Type="int" />
+          <Property Name="date_ajout" Type="date" />
+          <Property Name="etat" Type="nvarchar" MaxLength="50" />
+          <Property Name="montant_BS" Type="float" />
+          <Property Name="id_clt" Type="nvarchar" MaxLength="50" />
+          <Property Name="client" Type="nvarchar" MaxLength="50" />
+          <Property Name="id_fact" Type="nvarchar" MaxLength="50" />
+          <Property Name="id_commande" Type="nvarchar" MaxLength="50" />
+          <Property Name="nbcmd" Type="nvarchar" MaxLength="50" />
+          <Property Name="mode_livraison" Type="nvarchar" MaxLength="50" />
+          <Property Name="moyen_livraison" Type="nvarchar" MaxLength="50" />
+          <Property Name="lieu_livraison" Type="nvarchar" MaxLength="50" />
+          <Property Name="remise" Type="float" />
+          <Property Name="totalSansRemise" Type="float" />
+          <Property Name="L_num_bl" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="BonRetour">
+          <Key>
+            <PropertyRef Name="code" />
+          </Key>
+          <Property Name="code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="date" Type="date" />
+          <Property Name="idfr" Type="int" />
+          <Property Name="nomfr" Type="varchar" MaxLength="50" />
+          <Property Name="numerocumul" Type="int" />
+          <Property Name="type" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="client">
+          <Key>
+            <PropertyRef Name="codeclient" />
+          </Key>
+          <Property Name="codeclient" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="numerocl" Type="int" />
+          <Property Name="raisonsoc" Type="nvarchar(max)" />
+          <Property Name="resp" Type="nvarchar(max)" />
+          <Property Name="qualite" Type="nvarchar" MaxLength="50" />
+          <Property Name="tel" Type="nvarchar(max)" />
+          <Property Name="mobile" Type="nvarchar" MaxLength="50" />
+          <Property Name="adresse" Type="nvarchar(max)" />
+          <Property Name="codepostal" Type="int" />
+          <Property Name="ville" Type="nvarchar" MaxLength="50" />
+          <Property Name="web" Type="nvarchar" MaxLength="50" />
+          <Property Name="email" Type="nvarchar" MaxLength="50" />
+          <Property Name="fax" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="CumulEnt">
+          <Key>
+            <PropertyRef Name="code" />
+          </Key>
+          <Property Name="code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="date" Type="date" />
+          <Property Name="idfr" Type="int" />
+          <Property Name="nomfr" Type="nvarchar" MaxLength="50" />
+          <Property Name="numerocumul" Type="int" />
+          <Property Name="type" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Cumulsortie">
+          <Key>
+            <PropertyRef Name="code" />
+          </Key>
+          <Property Name="code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="date" Type="date" />
+          <Property Name="idfr" Type="int" />
+          <Property Name="nomfr" Type="nvarchar" MaxLength="50" />
+          <Property Name="numerocumul" Type="int" />
+          <Property Name="type" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="devis">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="numero_devis" Type="int" />
+          <Property Name="date_ajout" Type="date" />
+          <Property Name="id_clt" Type="nvarchar" MaxLength="50" />
+          <Property Name="client" Type="nvarchar" MaxLength="50" />
+          <Property Name="totalSansRemise" Type="float" />
+          <Property Name="remise" Type="float" />
+          <Property Name="montant_devis" Type="float" />
+          <Property Name="etat" Type="nvarchar" MaxLength="50" />
+          <Property Name="comment" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="Dossierpublication">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ndossier" Type="nvarchar" MaxLength="50" />
+          <Property Name="titre" Type="nvarchar" MaxLength="200" />
+          <Property Name="discipline" Type="nvarchar" MaxLength="200" />
+          <Property Name="idauteur" Type="int" />
+          <Property Name="auteur" Type="nvarchar" MaxLength="200" />
+          <Property Name="datedepo" Type="date" />
+          <Property Name="support" Type="nvarchar" MaxLength="50" />
+          <Property Name="nbpage" Type="int" />
+          <Property Name="format" Type="varchar" MaxLength="50" />
+          <Property Name="formatpapierinter" Type="nvarchar" MaxLength="50" />
+          <Property Name="nbpagenormal" Type="int" />
+          <Property Name="nbpagecolor" Type="int" />
+          <Property Name="couverture" Type="nvarchar" MaxLength="50" />
+          <Property Name="finition" Type="nvarchar" MaxLength="50" />
+          <Property Name="nboncommande" Type="int" />
+          <Property Name="datecommande" Type="date" />
+          <Property Name="idimp" Type="int" />
+          <Property Name="imp" Type="nvarchar" MaxLength="150" />
+          <Property Name="tirage" Type="nvarchar" MaxLength="150" />
+          <Property Name="reedition" Type="bit" />
+          <Property Name="nedition" Type="int" />
+          <Property Name="coedition" Type="bit" />
+          <Property Name="coediteur" Type="nvarchar" MaxLength="100" />
+          <Property Name="contratcoedition" Type="bit" />
+          <Property Name="bcmdcoedit" Type="bit" />
+          <Property Name="isbn" Type="nvarchar" MaxLength="50" />
+          <Property Name="prix" Type="float" />
+        </EntityType>
+        <EntityType Name="Droit">
+          <Key>
+            <PropertyRef Name="code" />
+          </Key>
+          <Property Name="code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nom" Type="nvarchar" MaxLength="50" />
+          <Property Name="prenom" Type="nvarchar" MaxLength="50" />
+          <Property Name="gsm" Type="nvarchar" MaxLength="50" />
+          <Property Name="email" Type="nvarchar" MaxLength="50" />
+          <Property Name="fonction" Type="nvarchar" MaxLength="50" />
+          <Property Name="utilisabilite" Type="nvarchar" MaxLength="50" />
+          <Property Name="login" Type="nvarchar" MaxLength="50" />
+          <Property Name="password" Type="nvarchar" MaxLength="50" />
+          <Property Name="GestClt" Type="nvarchar" MaxLength="6" />
+          <Property Name="GestAut" Type="nvarchar" MaxLength="6" />
+          <Property Name="GestSt" Type="nvarchar" MaxLength="6" />
+          <Property Name="GestVente" Type="nvarchar" MaxLength="6" />
+          <Property Name="GestDup" Type="nvarchar" MaxLength="6" />
+          <Property Name="GestStat" Type="nvarchar" MaxLength="6" />
+          <Property Name="GestRapp" Type="nvarchar" MaxLength="6" />
+          <Property Name="GestCompta" Type="nvarchar" MaxLength="6" />
+          <Property Name="GestPub" Type="nvarchar" MaxLength="6" />
+          <Property Name="GestAdmin" Type="nvarchar" MaxLength="6" />
+          <Property Name="GestFr" Type="nvarchar" MaxLength="6" />
+          <Property Name="GestDon" Type="nvarchar" MaxLength="6" />
+          <Property Name="GestFourniture" Type="nvarchar" MaxLength="6" />
+          <Property Name="GestDevis" Type="nvarchar" MaxLength="6" />
+        </EntityType>
+        <EntityType Name="emplacement">
+          <Key>
+            <PropertyRef Name="idemp" />
+          </Key>
+          <Property Name="idemp" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="empdesign" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Facture">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NumeroFacture" Type="int" />
+          <Property Name="date_ajout" Type="nvarchar(max)" />
+          <Property Name="id_clt" Type="int" />
+          <Property Name="intitule" Type="nvarchar(max)" />
+          <Property Name="Adresse" Type="nvarchar(max)" />
+          <Property Name="Telephone" Type="nvarchar(max)" />
+          <Property Name="L_num_bl" Type="nvarchar(max)" />
+          <Property Name="quittance" Type="nvarchar(max)" />
+          <Property Name="datequittance" Type="nvarchar(max)" />
+          <Property Name="Titre" Type="nvarchar(max)" />
+          <Property Name="Montantbrut" Type="float" />
+          <Property Name="remise" Type="float" />
+          <Property Name="totalremise" Type="float" />
+          <Property Name="montantnet" Type="float" />
+        </EntityType>
+        <EntityType Name="FactureDetail">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nfacture" Type="int" />
+          <Property Name="nligne" Type="int" />
+          <Property Name="date" Type="nvarchar(max)" />
+          <Property Name="client" Type="int" />
+          <Property Name="article" Type="nvarchar(max)" />
+          <Property Name="quantite" Type="float" />
+          <Property Name="pu" Type="float" />
+        </EntityType>
+        <EntityType Name="facturevente">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="numero_fact" Type="int" />
+          <Property Name="date_ajout" Type="date" />
+          <Property Name="id_clt" Type="nvarchar" MaxLength="50" />
+          <Property Name="client" Type="nvarchar" MaxLength="50" />
+          <Property Name="montant_hr" Type="float" />
+          <Property Name="remise" Type="float" />
+          <Property Name="montant" Type="float" />
+          <Property Name="retenusource" Type="float" />
+          <Property Name="id_bl" Type="int" />
+          <Property Name="L_num_bl" Type="nvarchar" MaxLength="50" />
+          <Property Name="RefCmd" Type="nvarchar" MaxLength="50" />
+          <Property Name="etat" Type="nvarchar" MaxLength="50" />
+          <Property Name="reste" Type="float" />
+          <Property Name="quittance" Type="nvarchar" MaxLength="50" />
+          <Property Name="datequittance" Type="date" />
+        </EntityType>
+        <EntityType Name="famille">
+          <Key>
+            <PropertyRef Name="idfamille" />
+          </Key>
+          <Property Name="idfamille" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="familledesign" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="ficheauteur">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nom" Type="nvarchar" MaxLength="50" />
+          <Property Name="prenom" Type="nvarchar" MaxLength="50" />
+          <Property Name="telephone" Type="nvarchar" MaxLength="50" />
+          <Property Name="fax" Type="nvarchar" MaxLength="50" />
+          <Property Name="email" Type="nvarchar" MaxLength="50" />
+          <Property Name="presentation" Type="bit" />
+          <Property Name="fichepresentation" Type="image" />
+          <Property Name="extpr" Type="image" />
+          <Property Name="biographie" Type="bit" />
+          <Property Name="resumebiographie" Type="image" />
+          <Property Name="extbiog" Type="image" />
+          <Property Name="photoauteur" Type="bit" />
+          <Property Name="photo" Type="image" />
+          <Property Name="extphoto" Type="image" />
+          <Property Name="couverture" Type="bit" />
+          <Property Name="propositioncouvert" Type="image" />
+          <Property Name="extcouv" Type="image" />
+          <Property Name="ndossier" Type="int" />
+        </EntityType>
+        <EntityType Name="fichesuivi">
+          <Key>
+            <PropertyRef Name="idfiche" />
+          </Key>
+          <Property Name="idfiche" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ndossier" Type="nvarchar" MaxLength="50" />
+          <Property Name="idagent" Type="int" />
+          <Property Name="agent" Type="nvarchar" MaxLength="100" />
+          <Property Name="datereception" Type="date" />
+          <Property Name="observation" Type="nvarchar(max)" />
+          <Property Name="datemaj" Type="date" />
+        </EntityType>
+        <EntityType Name="fournisseur">
+          <Key>
+            <PropertyRef Name="codefr" />
+          </Key>
+          <Property Name="codefr" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="numerofr" Type="int" />
+          <Property Name="raisonfr" Type="nvarchar(max)" />
+          <Property Name="responsable" Type="nvarchar" MaxLength="50" />
+          <Property Name="mobile" Type="nvarchar" MaxLength="50" />
+          <Property Name="tel" Type="nvarchar(max)" />
+          <Property Name="adress" Type="nvarchar(max)" />
+          <Property Name="ville" Type="nvarchar" MaxLength="50" />
+          <Property Name="email" Type="nvarchar" MaxLength="50" />
+          <Property Name="web" Type="nvarchar" MaxLength="50" />
+          <Property Name="codepostal" Type="nvarchar" MaxLength="50" />
+          <Property Name="image" Type="image" />
+        </EntityType>
+        <EntityType Name="Fourniture">
+          <Key>
+            <PropertyRef Name="idfour" />
+          </Key>
+          <Property Name="idfour" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="codefour" Type="nvarchar" MaxLength="50" />
+          <Property Name="famille" Type="nvarchar" MaxLength="50" />
+          <Property Name="idfamille" Type="int" />
+          <Property Name="sousfamille" Type="nvarchar" MaxLength="50" />
+          <Property Name="idsousfamille" Type="int" />
+          <Property Name="designation" Type="nvarchar" MaxLength="150" />
+          <Property Name="fournisseur" Type="nvarchar" MaxLength="100" />
+          <Property Name="quantitenstock" Type="float" />
+          <Property Name="prixAchat" Type="float" />
+          <Property Name="image" Type="image" />
+          <Property Name="seuil" Type="float" />
+        </EntityType>
+        <EntityType Name="ligne_avoir">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_avoir" Type="int" />
+          <Property Name="code_art" Type="nvarchar" MaxLength="50" />
+          <Property Name="designation" Type="nvarchar" MaxLength="150" />
+          <Property Name="quantite" Type="float" />
+          <Property Name="puv" Type="float" />
+          <Property Name="total" Type="float" />
+          <Property Name="remise" Type="float" />
+          <Property Name="prixremise" Type="float" />
+          <Property Name="idauteur" Type="int" />
+          <Property Name="etatpaiement" Type="nvarchar" MaxLength="50" />
+          <Property Name="comment" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="ligne_bc">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_bc" Type="int" />
+          <Property Name="code_art" Type="nvarchar" MaxLength="50" />
+          <Property Name="designation_article" Type="nvarchar" MaxLength="300" />
+          <Property Name="quantite_article" Type="float" />
+          <Property Name="puv" Type="float" />
+          <Property Name="totvente" Type="float" />
+          <Property Name="remise" Type="float" />
+          <Property Name="prixremis" Type="float" />
+          <Property Name="idauteur" Type="int" />
+          <Property Name="qtitservi" Type="float" />
+          <Property Name="qtitrest" Type="float" />
+        </EntityType>
+        <EntityType Name="ligne_bl">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_bl" Type="int" />
+          <Property Name="code_art" Type="nvarchar" MaxLength="50" />
+          <Property Name="designation_article" Type="nvarchar" MaxLength="300" />
+          <Property Name="quantite_article" Type="float" />
+          <Property Name="puv" Type="float" />
+          <Property Name="total" Type="float" />
+          <Property Name="remise" Type="float" />
+          <Property Name="prixremise" Type="float" />
+          <Property Name="idauteur" Type="int" />
+          <Property Name="etatpaiement" Type="varchar" MaxLength="50" />
+          <Property Name="idcmd" Type="int" />
+          <Property Name="numligne" Type="int" />
+          <Property Name="date" Type="nvarchar" MaxLength="50" />
+          <Property Name="client" Type="int" />
+        </EntityType>
+        <EntityType Name="ligne_bs">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_bs" Type="int" />
+          <Property Name="code_art" Type="nvarchar" MaxLength="50" />
+          <Property Name="designation_article" Type="nvarchar" MaxLength="300" />
+          <Property Name="quantite_article" Type="float" />
+          <Property Name="puv" Type="float" />
+          <Property Name="remise" Type="float" />
+          <Property Name="prixRemise" Type="float" />
+          <Property Name="total" Type="float" />
+        </EntityType>
+        <EntityType Name="ligne_devis">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_devis" Type="int" />
+          <Property Name="code_art" Type="nvarchar" MaxLength="50" />
+          <Property Name="designation_article" Type="nvarchar" MaxLength="300" />
+          <Property Name="quantite_article" Type="float" />
+          <Property Name="puv" Type="float" />
+          <Property Name="remise" Type="float" />
+          <Property Name="totalsansremise" Type="float" />
+          <Property Name="total" Type="float" />
+          <Property Name="idauteur" Type="int" />
+        </EntityType>
+        <EntityType Name="Livre">
+          <Key>
+            <PropertyRef Name="Rang" />
+          </Key>
+          <Property Name="Rang" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="codeart" Type="nvarchar" MaxLength="50" />
+          <Property Name="titre" Type="nvarchar(max)" />
+          <Property Name="dateedition" Type="varchar" MaxLength="50" />
+          <Property Name="imprimerie" Type="nvarchar(max)" />
+          <Property Name="auteur" Type="nvarchar(max)" />
+          <Property Name="isbn" Type="nvarchar" MaxLength="50" />
+          <Property Name="codeabarre" Type="nvarchar" MaxLength="50" />
+          <Property Name="quantitenstock" Type="float" />
+          <Property Name="prixachat" Type="nvarchar" MaxLength="50" />
+          <Property Name="pvpublic" Type="varchar" MaxLength="50" />
+          <Property Name="pvetudiant" Type="varchar" MaxLength="50" />
+          <Property Name="pvfoire" Type="nvarchar" MaxLength="50" />
+          <Property Name="pvdepositaire" Type="nvarchar" MaxLength="50" />
+          <Property Name="image" Type="image" />
+          <Property Name="emplacement" Type="varchar" MaxLength="50" />
+          <Property Name="famille" Type="int" />
+          <Property Name="qtitreelle" Type="float" />
+          <Property Name="stockalert" Type="float" />
+        </EntityType>
+        <EntityType Name="Piece_bonret">
+          <Key>
+            <PropertyRef Name="code" />
+          </Key>
+          <Property Name="code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Codecumul" Type="int" />
+          <Property Name="Codearticle" Type="nvarchar" MaxLength="50" />
+          <Property Name="nomart" Type="nvarchar" MaxLength="150" />
+          <Property Name="quantite" Type="float" />
+          <Property Name="date" Type="date" />
+        </EntityType>
+        <EntityType Name="Piece_cumulent">
+          <Key>
+            <PropertyRef Name="code" />
+          </Key>
+          <Property Name="code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Codecumul" Type="int" />
+          <Property Name="Codearticle" Type="nvarchar" MaxLength="50" />
+          <Property Name="nomart" Type="nvarchar" MaxLength="150" />
+          <Property Name="quantite" Type="float" />
+          <Property Name="pua" Type="float" />
+          <Property Name="date" Type="date" />
+        </EntityType>
+        <EntityType Name="Piece_cumulsortie">
+          <Key>
+            <PropertyRef Name="code" />
+          </Key>
+          <Property Name="code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Codecumul" Type="int" />
+          <Property Name="Codearticle" Type="nvarchar" MaxLength="50" />
+          <Property Name="nomart" Type="nvarchar" MaxLength="150" />
+          <Property Name="quantite" Type="float" />
+          <Property Name="puv" Type="float" />
+          <Property Name="date" Type="date" />
+        </EntityType>
+        <EntityType Name="piece_fact">
+          <Key>
+            <PropertyRef Name="id_piece" />
+          </Key>
+          <Property Name="id_piece" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="code_piece_u" Type="nvarchar" MaxLength="50" />
+          <Property Name="libelle_piece_u" Type="nvarchar" MaxLength="300" />
+          <Property Name="quantite_piece_u" Type="float" />
+          <Property Name="id_fact" Type="int" />
+          <Property Name="puv" Type="float" />
+          <Property Name="remise" Type="float" />
+          <Property Name="pv" Type="float" />
+          <Property Name="idauteur" Type="int" />
+        </EntityType>
+        <EntityType Name="Quittance">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nquiitance" Type="int" />
+          <Property Name="datequittance" Type="date" />
+          <Property Name="nfact" Type="nvarchar" MaxLength="50" />
+          <Property Name="idclient" Type="int" />
+          <Property Name="total" Type="float" />
+          <Property Name="remise" Type="float" />
+          <Property Name="netapayer" Type="float" />
+          <Property Name="mode" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Reglement">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="date" Type="datetime" />
+          <Property Name="nfacture" Type="nvarchar" MaxLength="100" />
+          <Property Name="idclient" Type="int" />
+          <Property Name="montant" Type="float" />
+          <Property Name="remise" Type="float" />
+          <Property Name="netapayer" Type="float" />
+          <Property Name="typereglement" Type="nvarchar" MaxLength="50" />
+          <Property Name="banque" Type="nvarchar" MaxLength="50" />
+          <Property Name="RIB" Type="nvarchar" MaxLength="50" />
+          <Property Name="ndoc" Type="nvarchar" MaxLength="50" />
+          <Property Name="echeance" Type="date" />
+        </EntityType>
+        <EntityType Name="reservation">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ncmd" Type="int" />
+          <Property Name="article" Type="nvarchar" MaxLength="50" />
+          <Property Name="date" Type="datetime" />
+          <Property Name="quantit" Type="float" />
+        </EntityType>
+        <EntityType Name="societe">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="rsoc" Type="nvarchar" MaxLength="150" />
+          <Property Name="adresse" Type="nvarchar" MaxLength="150" />
+          <Property Name="codpost" Type="nvarchar" MaxLength="50" />
+          <Property Name="ville" Type="nvarchar" MaxLength="50" />
+          <Property Name="mobile" Type="nchar" MaxLength="20" />
+          <Property Name="tel" Type="varchar" MaxLength="20" />
+          <Property Name="fax" Type="varchar" MaxLength="20" />
+          <Property Name="mail" Type="nvarchar" MaxLength="50" />
+          <Property Name="siteweb" Type="nvarchar" MaxLength="50" />
+          <Property Name="logo" Type="image" />
+          <Property Name="assujetitva" Type="nvarchar" MaxLength="50" />
+          <Property Name="numtva" Type="float" />
+          <Property Name="activite" Type="nvarchar" MaxLength="150" />
+          <Property Name="nomresp" Type="nvarchar" MaxLength="50" />
+          <Property Name="formejuridique" Type="nvarchar" MaxLength="50" />
+          <Property Name="matfisc" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="sousfamille">
+          <Key>
+            <PropertyRef Name="idsousfamille" />
+          </Key>
+          <Property Name="idsousfamille" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="familleid" Type="int" />
+          <Property Name="familledesign" Type="varchar" MaxLength="50" />
+          <Property Name="sousfamilledesign" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="specialite">
+          <Key>
+            <PropertyRef Name="idsp" />
+          </Key>
+          <Property Name="idsp" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="designation" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'NewCampus.dbo.InfoLivre' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="InfoLivre">
+          <Key>
+            <PropertyRef Name="Rang" />
+          </Key>
+          <Property Name="Rang" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="codeart" Type="nvarchar" MaxLength="50" />
+          <Property Name="titre" Type="nvarchar(max)" />
+          <Property Name="imprimerie" Type="nvarchar(max)" />
+          <Property Name="auteur" Type="nvarchar(max)" />
+          <Property Name="isbn" Type="nvarchar" MaxLength="50" />
+          <Property Name="codeabarre" Type="nvarchar" MaxLength="50" />
+          <Property Name="quantitenstock" Type="float" />
+        </EntityType>
+        <Function Name="findArtbref" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="getartinfo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="SelectArticle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="spFindlistartstartby" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="vartext" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="spRapportArt" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="codep" Type="nvarchar" Mode="In" />
+          <Parameter Name="date1" Type="datetime" Mode="In" />
+          <Parameter Name="date2" Type="datetime" Mode="In" />
+        </Function>
+        <EntityContainer Name="NewCampusModelStoreContainer">
+          <EntitySet Name="agent" EntityType="Self.agent" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="auteur" EntityType="Self.auteur" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Avoir" EntityType="Self.Avoir" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Banque" EntityType="Self.Banque" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="bon_commande" EntityType="Self.bon_commande" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="bon_livraison" EntityType="Self.bon_livraison" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="bon_sortie" EntityType="Self.bon_sortie" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BonRetour" EntityType="Self.BonRetour" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="client" EntityType="Self.client" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CumulEnt" EntityType="Self.CumulEnt" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Cumulsortie" EntityType="Self.Cumulsortie" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="devis" EntityType="Self.devis" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dossierpublication" EntityType="Self.Dossierpublication" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Droit" EntityType="Self.Droit" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="emplacement" EntityType="Self.emplacement" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Facture" EntityType="Self.Facture" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FactureDetail" EntityType="Self.FactureDetail" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="facturevente" EntityType="Self.facturevente" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="famille" EntityType="Self.famille" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ficheauteur" EntityType="Self.ficheauteur" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="fichesuivi" EntityType="Self.fichesuivi" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="fournisseur" EntityType="Self.fournisseur" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Fourniture" EntityType="Self.Fourniture" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ligne_avoir" EntityType="Self.ligne_avoir" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ligne_bc" EntityType="Self.ligne_bc" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ligne_bl" EntityType="Self.ligne_bl" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ligne_bs" EntityType="Self.ligne_bs" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ligne_devis" EntityType="Self.ligne_devis" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Livre" EntityType="Self.Livre" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Piece_bonret" EntityType="Self.Piece_bonret" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Piece_cumulent" EntityType="Self.Piece_cumulent" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Piece_cumulsortie" EntityType="Self.Piece_cumulsortie" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="piece_fact" EntityType="Self.piece_fact" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Quittance" EntityType="Self.Quittance" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Reglement" EntityType="Self.Reglement" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="reservation" EntityType="Self.reservation" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="societe" EntityType="Self.societe" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sousfamille" EntityType="Self.sousfamille" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="specialite" EntityType="Self.specialite" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="InfoLivre" EntityType="Self.InfoLivre" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [InfoLivre].[Rang] AS [Rang], 
+    [InfoLivre].[codeart] AS [codeart], 
+    [InfoLivre].[titre] AS [titre], 
+    [InfoLivre].[imprimerie] AS [imprimerie], 
+    [InfoLivre].[auteur] AS [auteur], 
+    [InfoLivre].[isbn] AS [isbn], 
+    [InfoLivre].[codeabarre] AS [codeabarre], 
+    [InfoLivre].[quantitenstock] AS [quantitenstock]
+    FROM [dbo].[InfoLivre] AS [InfoLivre]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="NewCampusModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="agent">
+          <Key>
+            <PropertyRef Name="idagent" />
+          </Key>
+          <Property Name="idagent" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="cin" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="nom" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="prenom" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="numtel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="specialite" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="auteur">
+          <Key>
+            <PropertyRef Name="codeauteur" />
+          </Key>
+          <Property Name="codeauteur" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="numeroaut" Type="Int32" />
+          <Property Name="nom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="prenom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="tel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="adr" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="institution" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="specialite" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ville" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="codepostal" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="web" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="cin" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="fax" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Avoir">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="numeroavoir" Type="Int32" />
+          <Property Name="date" Type="DateTime" Precision="0" />
+          <Property Name="idclt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="client" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="montant" Type="Double" />
+          <Property Name="remise" Type="Double" />
+          <Property Name="montanttotal" Type="Double" />
+          <Property Name="Comment" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Banque">
+          <Key>
+            <PropertyRef Name="idbanque" />
+          </Key>
+          <Property Name="idbanque" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombanque" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="rib" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="soldeinitial" Type="Double" />
+        </EntityType>
+        <EntityType Name="bon_commande">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="numero_bc" Type="Int32" />
+          <Property Name="date_ajout" Type="DateTime" Precision="3" />
+          <Property Name="etat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="montant" Type="Double" />
+          <Property Name="remise" Type="Double" />
+          <Property Name="prixremise" Type="Double" />
+          <Property Name="id_clt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="client" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="numerodevis" Type="Int32" />
+          <Property Name="comment" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="bon_livraison">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="numero_bl" Type="Int32" />
+          <Property Name="date_ajout" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="etat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="montant_BL" Type="Double" />
+          <Property Name="remise" Type="Double" />
+          <Property Name="prixremise" Type="Double" />
+          <Property Name="id_clt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="client" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="id_fact" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="id_commande" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="comment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="adresse" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="tel" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="bon_sortie">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="numero_bs" Type="Int32" />
+          <Property Name="date_ajout" Type="DateTime" Precision="0" />
+          <Property Name="etat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="montant_BS" Type="Double" />
+          <Property Name="id_clt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="client" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="id_fact" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="id_commande" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="nbcmd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="mode_livraison" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="moyen_livraison" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="lieu_livraison" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="remise" Type="Double" />
+          <Property Name="totalSansRemise" Type="Double" />
+          <Property Name="L_num_bl" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityType Name="BonRetour">
+          <Key>
+            <PropertyRef Name="code" />
+          </Key>
+          <Property Name="code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="date" Type="DateTime" Precision="0" />
+          <Property Name="idfr" Type="Int32" />
+          <Property Name="nomfr" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="numerocumul" Type="Int32" />
+          <Property Name="type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="client">
+          <Key>
+            <PropertyRef Name="codeclient" />
+          </Key>
+          <Property Name="codeclient" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="numerocl" Type="Int32" />
+          <Property Name="raisonsoc" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="resp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="qualite" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="tel" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="mobile" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="adresse" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="codepostal" Type="Int32" />
+          <Property Name="ville" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="web" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="fax" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="CumulEnt">
+          <Key>
+            <PropertyRef Name="code" />
+          </Key>
+          <Property Name="code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="date" Type="DateTime" Precision="0" />
+          <Property Name="idfr" Type="Int32" />
+          <Property Name="nomfr" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="numerocumul" Type="Int32" />
+          <Property Name="type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Cumulsortie">
+          <Key>
+            <PropertyRef Name="code" />
+          </Key>
+          <Property Name="code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="date" Type="DateTime" Precision="0" />
+          <Property Name="idfr" Type="Int32" />
+          <Property Name="nomfr" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="numerocumul" Type="Int32" />
+          <Property Name="type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="devis">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="numero_devis" Type="Int32" />
+          <Property Name="date_ajout" Type="DateTime" Precision="0" />
+          <Property Name="id_clt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="client" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="totalSansRemise" Type="Double" />
+          <Property Name="remise" Type="Double" />
+          <Property Name="montant_devis" Type="Double" />
+          <Property Name="etat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="comment" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Dossierpublication">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ndossier" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="titre" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="discipline" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="idauteur" Type="Int32" />
+          <Property Name="auteur" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="datedepo" Type="DateTime" Precision="0" />
+          <Property Name="support" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="nbpage" Type="Int32" />
+          <Property Name="format" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="formatpapierinter" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="nbpagenormal" Type="Int32" />
+          <Property Name="nbpagecolor" Type="Int32" />
+          <Property Name="couverture" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="finition" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="nboncommande" Type="Int32" />
+          <Property Name="datecommande" Type="DateTime" Precision="0" />
+          <Property Name="idimp" Type="Int32" />
+          <Property Name="imp" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="tirage" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="reedition" Type="Boolean" />
+          <Property Name="nedition" Type="Int32" />
+          <Property Name="coedition" Type="Boolean" />
+          <Property Name="coediteur" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="contratcoedition" Type="Boolean" />
+          <Property Name="bcmdcoedit" Type="Boolean" />
+          <Property Name="isbn" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="prix" Type="Double" />
+        </EntityType>
+        <EntityType Name="Droit">
+          <Key>
+            <PropertyRef Name="code" />
+          </Key>
+          <Property Name="code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="prenom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="gsm" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="fonction" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="utilisabilite" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="GestClt" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="GestAut" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="GestSt" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="GestVente" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="GestDup" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="GestStat" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="GestRapp" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="GestCompta" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="GestPub" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="GestAdmin" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="GestFr" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="GestDon" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="GestFourniture" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Name="GestDevis" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="emplacement">
+          <Key>
+            <PropertyRef Name="idemp" />
+          </Key>
+          <Property Name="idemp" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="empdesign" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Facture">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NumeroFacture" Type="Int32" />
+          <Property Name="date_ajout" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="id_clt" Type="Int32" />
+          <Property Name="intitule" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Adresse" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Telephone" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="L_num_bl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="quittance" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="datequittance" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Titre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Montantbrut" Type="Double" />
+          <Property Name="remise" Type="Double" />
+          <Property Name="totalremise" Type="Double" />
+          <Property Name="montantnet" Type="Double" />
+        </EntityType>
+        <EntityType Name="FactureDetail">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nfacture" Type="Int32" />
+          <Property Name="nligne" Type="Int32" />
+          <Property Name="date" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="client" Type="Int32" />
+          <Property Name="article" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="quantite" Type="Double" />
+          <Property Name="pu" Type="Double" />
+        </EntityType>
+        <EntityType Name="facturevente">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="numero_fact" Type="Int32" />
+          <Property Name="date_ajout" Type="DateTime" Precision="0" />
+          <Property Name="id_clt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="client" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="montant_hr" Type="Double" />
+          <Property Name="remise" Type="Double" />
+          <Property Name="montant" Type="Double" />
+          <Property Name="retenusource" Type="Double" />
+          <Property Name="id_bl" Type="Int32" />
+          <Property Name="L_num_bl" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="RefCmd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="etat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="reste" Type="Double" />
+          <Property Name="quittance" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="datequittance" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="famille">
+          <Key>
+            <PropertyRef Name="idfamille" />
+          </Key>
+          <Property Name="idfamille" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="familledesign" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="ficheauteur">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="prenom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="telephone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="fax" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="presentation" Type="Boolean" />
+          <Property Name="fichepresentation" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="extpr" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="biographie" Type="Boolean" />
+          <Property Name="resumebiographie" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="extbiog" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="photoauteur" Type="Boolean" />
+          <Property Name="photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="extphoto" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="couverture" Type="Boolean" />
+          <Property Name="propositioncouvert" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="extcouv" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="ndossier" Type="Int32" />
+        </EntityType>
+        <EntityType Name="fichesuivi">
+          <Key>
+            <PropertyRef Name="idfiche" />
+          </Key>
+          <Property Name="idfiche" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ndossier" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="idagent" Type="Int32" />
+          <Property Name="agent" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="datereception" Type="DateTime" Precision="0" />
+          <Property Name="observation" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="datemaj" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="fournisseur">
+          <Key>
+            <PropertyRef Name="codefr" />
+          </Key>
+          <Property Name="codefr" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="numerofr" Type="Int32" />
+          <Property Name="raisonfr" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="responsable" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="mobile" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="tel" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="adress" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ville" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="web" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="codepostal" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="image" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Fourniture">
+          <Key>
+            <PropertyRef Name="idfour" />
+          </Key>
+          <Property Name="idfour" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="codefour" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="famille" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="idfamille" Type="Int32" />
+          <Property Name="sousfamille" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="idsousfamille" Type="Int32" />
+          <Property Name="designation" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="fournisseur" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="quantitenstock" Type="Double" />
+          <Property Name="prixAchat" Type="Double" />
+          <Property Name="image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="seuil" Type="Double" />
+        </EntityType>
+        <EntityType Name="ligne_avoir">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_avoir" Type="Int32" />
+          <Property Name="code_art" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="designation" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="quantite" Type="Double" />
+          <Property Name="puv" Type="Double" />
+          <Property Name="total" Type="Double" />
+          <Property Name="remise" Type="Double" />
+          <Property Name="prixremise" Type="Double" />
+          <Property Name="idauteur" Type="Int32" />
+          <Property Name="etatpaiement" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="comment" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="ligne_bc">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_bc" Type="Int32" />
+          <Property Name="code_art" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="designation_article" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Name="quantite_article" Type="Double" />
+          <Property Name="puv" Type="Double" />
+          <Property Name="totvente" Type="Double" />
+          <Property Name="remise" Type="Double" />
+          <Property Name="prixremis" Type="Double" />
+          <Property Name="idauteur" Type="Int32" />
+          <Property Name="qtitservi" Type="Double" />
+          <Property Name="qtitrest" Type="Double" />
+        </EntityType>
+        <EntityType Name="ligne_bl">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_bl" Type="Int32" />
+          <Property Name="code_art" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="designation_article" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Name="quantite_article" Type="Double" />
+          <Property Name="puv" Type="Double" />
+          <Property Name="total" Type="Double" />
+          <Property Name="remise" Type="Double" />
+          <Property Name="prixremise" Type="Double" />
+          <Property Name="idauteur" Type="Int32" />
+          <Property Name="etatpaiement" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="idcmd" Type="Int32" />
+          <Property Name="numligne" Type="Int32" />
+          <Property Name="date" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="client" Type="Int32" />
+        </EntityType>
+        <EntityType Name="ligne_bs">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_bs" Type="Int32" />
+          <Property Name="code_art" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="designation_article" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Name="quantite_article" Type="Double" />
+          <Property Name="puv" Type="Double" />
+          <Property Name="remise" Type="Double" />
+          <Property Name="prixRemise" Type="Double" />
+          <Property Name="total" Type="Double" />
+        </EntityType>
+        <EntityType Name="ligne_devis">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_devis" Type="Int32" />
+          <Property Name="code_art" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="designation_article" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Name="quantite_article" Type="Double" />
+          <Property Name="puv" Type="Double" />
+          <Property Name="remise" Type="Double" />
+          <Property Name="totalsansremise" Type="Double" />
+          <Property Name="total" Type="Double" />
+          <Property Name="idauteur" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Livre">
+          <Key>
+            <PropertyRef Name="Rang" />
+          </Key>
+          <Property Name="Rang" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="codeart" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="titre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="dateedition" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="imprimerie" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="auteur" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="isbn" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="codeabarre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="quantitenstock" Type="Double" />
+          <Property Name="prixachat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="pvpublic" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="pvetudiant" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="pvfoire" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="pvdepositaire" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="emplacement" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="famille" Type="Int32" />
+          <Property Name="qtitreelle" Type="Double" />
+          <Property Name="stockalert" Type="Double" />
+        </EntityType>
+        <EntityType Name="Piece_bonret">
+          <Key>
+            <PropertyRef Name="code" />
+          </Key>
+          <Property Name="code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Codecumul" Type="Int32" />
+          <Property Name="Codearticle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="nomart" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="quantite" Type="Double" />
+          <Property Name="date" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="Piece_cumulent">
+          <Key>
+            <PropertyRef Name="code" />
+          </Key>
+          <Property Name="code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Codecumul" Type="Int32" />
+          <Property Name="Codearticle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="nomart" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="quantite" Type="Double" />
+          <Property Name="pua" Type="Double" />
+          <Property Name="date" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="Piece_cumulsortie">
+          <Key>
+            <PropertyRef Name="code" />
+          </Key>
+          <Property Name="code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Codecumul" Type="Int32" />
+          <Property Name="Codearticle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="nomart" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="quantite" Type="Double" />
+          <Property Name="puv" Type="Double" />
+          <Property Name="date" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="piece_fact">
+          <Key>
+            <PropertyRef Name="id_piece" />
+          </Key>
+          <Property Name="id_piece" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="code_piece_u" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="libelle_piece_u" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Name="quantite_piece_u" Type="Double" />
+          <Property Name="id_fact" Type="Int32" />
+          <Property Name="puv" Type="Double" />
+          <Property Name="remise" Type="Double" />
+          <Property Name="pv" Type="Double" />
+          <Property Name="idauteur" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Quittance">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nquiitance" Type="Int32" />
+          <Property Name="datequittance" Type="DateTime" Precision="0" />
+          <Property Name="nfact" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="idclient" Type="Int32" />
+          <Property Name="total" Type="Double" />
+          <Property Name="remise" Type="Double" />
+          <Property Name="netapayer" Type="Double" />
+          <Property Name="mode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Reglement">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="date" Type="DateTime" Precision="3" />
+          <Property Name="nfacture" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="idclient" Type="Int32" />
+          <Property Name="montant" Type="Double" />
+          <Property Name="remise" Type="Double" />
+          <Property Name="netapayer" Type="Double" />
+          <Property Name="typereglement" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="banque" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="RIB" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ndoc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="echeance" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="reservation">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ncmd" Type="Int32" />
+          <Property Name="article" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="date" Type="DateTime" Precision="3" />
+          <Property Name="quantit" Type="Double" />
+        </EntityType>
+        <EntityType Name="societe">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="rsoc" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="adresse" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="codpost" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ville" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="mobile" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+          <Property Name="tel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="fax" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="siteweb" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="logo" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="assujetitva" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="numtva" Type="Double" />
+          <Property Name="activite" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="nomresp" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="formejuridique" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="matfisc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="sousfamille">
+          <Key>
+            <PropertyRef Name="idsousfamille" />
+          </Key>
+          <Property Name="idsousfamille" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="familleid" Type="Int32" />
+          <Property Name="familledesign" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="sousfamilledesign" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="specialite">
+          <Key>
+            <PropertyRef Name="idsp" />
+          </Key>
+          <Property Name="idsp" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="designation" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="NewCampusEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="agent" EntityType="Self.agent" />
+          <EntitySet Name="auteur" EntityType="Self.auteur" />
+          <EntitySet Name="Avoir" EntityType="Self.Avoir" />
+          <EntitySet Name="Banque" EntityType="Self.Banque" />
+          <EntitySet Name="bon_commande" EntityType="Self.bon_commande" />
+          <EntitySet Name="bon_livraison" EntityType="Self.bon_livraison" />
+          <EntitySet Name="bon_sortie" EntityType="Self.bon_sortie" />
+          <EntitySet Name="BonRetour" EntityType="Self.BonRetour" />
+          <EntitySet Name="client" EntityType="Self.client" />
+          <EntitySet Name="CumulEnt" EntityType="Self.CumulEnt" />
+          <EntitySet Name="Cumulsortie" EntityType="Self.Cumulsortie" />
+          <EntitySet Name="devis" EntityType="Self.devis" />
+          <EntitySet Name="Dossierpublication" EntityType="Self.Dossierpublication" />
+          <EntitySet Name="Droit" EntityType="Self.Droit" />
+          <EntitySet Name="emplacement" EntityType="Self.emplacement" />
+          <EntitySet Name="Facture" EntityType="Self.Facture" />
+          <EntitySet Name="FactureDetail" EntityType="Self.FactureDetail" />
+          <EntitySet Name="facturevente" EntityType="Self.facturevente" />
+          <EntitySet Name="famille" EntityType="Self.famille" />
+          <EntitySet Name="ficheauteur" EntityType="Self.ficheauteur" />
+          <EntitySet Name="fichesuivi" EntityType="Self.fichesuivi" />
+          <EntitySet Name="fournisseur" EntityType="Self.fournisseur" />
+          <EntitySet Name="Fourniture" EntityType="Self.Fourniture" />
+          <EntitySet Name="ligne_avoir" EntityType="Self.ligne_avoir" />
+          <EntitySet Name="ligne_bc" EntityType="Self.ligne_bc" />
+          <EntitySet Name="ligne_bl" EntityType="Self.ligne_bl" />
+          <EntitySet Name="ligne_bs" EntityType="Self.ligne_bs" />
+          <EntitySet Name="ligne_devis" EntityType="Self.ligne_devis" />
+          <EntitySet Name="Livre" EntityType="Self.Livre" />
+          <EntitySet Name="Piece_bonret" EntityType="Self.Piece_bonret" />
+          <EntitySet Name="Piece_cumulent" EntityType="Self.Piece_cumulent" />
+          <EntitySet Name="Piece_cumulsortie" EntityType="Self.Piece_cumulsortie" />
+          <EntitySet Name="piece_fact" EntityType="Self.piece_fact" />
+          <EntitySet Name="Quittance" EntityType="Self.Quittance" />
+          <EntitySet Name="Reglement" EntityType="Self.Reglement" />
+          <EntitySet Name="reservation" EntityType="Self.reservation" />
+          <EntitySet Name="societe" EntityType="Self.societe" />
+          <EntitySet Name="sousfamille" EntityType="Self.sousfamille" />
+          <EntitySet Name="specialite" EntityType="Self.specialite" />
+          <FunctionImport Name="SelectArticle" ReturnType="Collection(NewCampusModel.SelectArticle_Result)" />
+          <FunctionImport Name="spFindlistartstartby" EntitySet="Livre" ReturnType="Collection(NewCampusModel.Livre)">
+          <Parameter Name="vartext" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="spRapportArt" EntitySet="piece_fact" ReturnType="Collection(NewCampusModel.piece_fact)">
+            <Parameter Name="codep" Mode="In" Type="String" />
+            <Parameter Name="date1" Mode="In" Type="DateTime" />
+            <Parameter Name="date2" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="getartinfo" ReturnType="Collection(NewCampusModel.getartinfo_Result)" />
+          <FunctionImport Name="findArtbref" ReturnType="Collection(NewCampusModel.findArtbref_Result)" />
+          <EntitySet Name="InfoLivre" EntityType="NewCampusModel.InfoLivre" />
+        </EntityContainer>
+        <ComplexType Name="SelectArticle_Result">
+          <Property Type="String" Name="codeart" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="titre" Nullable="true" />
+          <Property Type="String" Name="isbn" Nullable="true" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="spFindlistartstartby_Result">
+          <Property Type="Int32" Name="Rang" Nullable="false" />
+          <Property Type="String" Name="codeart" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="titre" Nullable="true" />
+          <Property Type="String" Name="dateedition" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="imprimerie" Nullable="true" />
+          <Property Type="String" Name="auteur" Nullable="true" />
+          <Property Type="String" Name="isbn" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="codeabarre" Nullable="true" MaxLength="50" />
+          <Property Type="Double" Name="quantitenstock" Nullable="true" />
+          <Property Type="String" Name="prixachat" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="pvpublic" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="pvetudiant" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="pvfoire" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="pvdepositaire" Nullable="true" MaxLength="50" />
+          <Property Type="Binary" Name="image" Nullable="true" MaxLength="Max" />
+          <Property Type="String" Name="emplacement" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="famille" Nullable="true" />
+          <Property Type="Double" Name="qtitreelle" Nullable="true" />
+          <Property Type="Double" Name="stockalert" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="spRapportArt_Result">
+          <Property Type="Int32" Name="id_piece" Nullable="false" />
+          <Property Type="String" Name="code_piece_u" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="libelle_piece_u" Nullable="true" MaxLength="300" />
+          <Property Type="Double" Name="quantite_piece_u" Nullable="true" />
+          <Property Type="Int32" Name="id_fact" Nullable="true" />
+          <Property Type="Double" Name="puv" Nullable="true" />
+          <Property Type="Double" Name="remise" Nullable="true" />
+          <Property Type="Double" Name="pv" Nullable="true" />
+          <Property Type="Int32" Name="idauteur" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="getartinfo_Result">
+          <Property Type="String" Name="codeart" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="titre" Nullable="true" />
+          <Property Type="Double" Name="quantitenstock" Nullable="true" />
+          <Property Type="Double" Name="qtitreelle" Nullable="true" />
+          <Property Type="Double" Name="stockalert" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="findArtbref_Result">
+          <Property Type="Int32" Name="Rang" Nullable="false" />
+          <Property Type="String" Name="codeart" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="titre" Nullable="true" />
+          <Property Type="String" Name="imprimerie" Nullable="true" />
+          <Property Type="String" Name="auteur" Nullable="true" />
+          <Property Type="String" Name="isbn" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="codeabarre" Nullable="true" MaxLength="50" />
+          <Property Type="Double" Name="quantitenstock" Nullable="true" />
+        </ComplexType>
+        <EntityType Name="InfoLivre">
+          <Key>
+            <PropertyRef Name="Rang" />
+          </Key>
+          <Property Name="Rang" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="codeart" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="titre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="imprimerie" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="auteur" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="isbn" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="codeabarre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="quantitenstock" Type="Double" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="NewCampusModelStoreContainer" CdmEntityContainer="NewCampusEntities">
+          <EntitySetMapping Name="agent">
+            <EntityTypeMapping TypeName="NewCampusModel.agent">
+              <MappingFragment StoreEntitySet="agent">
+                <ScalarProperty Name="idagent" ColumnName="idagent" />
+                <ScalarProperty Name="cin" ColumnName="cin" />
+                <ScalarProperty Name="nom" ColumnName="nom" />
+                <ScalarProperty Name="prenom" ColumnName="prenom" />
+                <ScalarProperty Name="numtel" ColumnName="numtel" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="specialite" ColumnName="specialite" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="auteur">
+            <EntityTypeMapping TypeName="NewCampusModel.auteur">
+              <MappingFragment StoreEntitySet="auteur">
+                <ScalarProperty Name="codeauteur" ColumnName="codeauteur" />
+                <ScalarProperty Name="numeroaut" ColumnName="numeroaut" />
+                <ScalarProperty Name="nom" ColumnName="nom" />
+                <ScalarProperty Name="prenom" ColumnName="prenom" />
+                <ScalarProperty Name="tel" ColumnName="tel" />
+                <ScalarProperty Name="adr" ColumnName="adr" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="institution" ColumnName="institution" />
+                <ScalarProperty Name="specialite" ColumnName="specialite" />
+                <ScalarProperty Name="ville" ColumnName="ville" />
+                <ScalarProperty Name="codepostal" ColumnName="codepostal" />
+                <ScalarProperty Name="web" ColumnName="web" />
+                <ScalarProperty Name="image" ColumnName="image" />
+                <ScalarProperty Name="cin" ColumnName="cin" />
+                <ScalarProperty Name="fax" ColumnName="fax" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Avoir">
+            <EntityTypeMapping TypeName="NewCampusModel.Avoir">
+              <MappingFragment StoreEntitySet="Avoir">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="numeroavoir" ColumnName="numeroavoir" />
+                <ScalarProperty Name="date" ColumnName="date" />
+                <ScalarProperty Name="idclt" ColumnName="idclt" />
+                <ScalarProperty Name="client" ColumnName="client" />
+                <ScalarProperty Name="montant" ColumnName="montant" />
+                <ScalarProperty Name="remise" ColumnName="remise" />
+                <ScalarProperty Name="montanttotal" ColumnName="montanttotal" />
+                <ScalarProperty Name="Comment" ColumnName="Comment" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Banque">
+            <EntityTypeMapping TypeName="NewCampusModel.Banque">
+              <MappingFragment StoreEntitySet="Banque">
+                <ScalarProperty Name="idbanque" ColumnName="idbanque" />
+                <ScalarProperty Name="nombanque" ColumnName="nombanque" />
+                <ScalarProperty Name="rib" ColumnName="rib" />
+                <ScalarProperty Name="soldeinitial" ColumnName="soldeinitial" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="bon_commande">
+            <EntityTypeMapping TypeName="NewCampusModel.bon_commande">
+              <MappingFragment StoreEntitySet="bon_commande">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="numero_bc" ColumnName="numero_bc" />
+                <ScalarProperty Name="date_ajout" ColumnName="date_ajout" />
+                <ScalarProperty Name="etat" ColumnName="etat" />
+                <ScalarProperty Name="montant" ColumnName="montant" />
+                <ScalarProperty Name="remise" ColumnName="remise" />
+                <ScalarProperty Name="prixremise" ColumnName="prixremise" />
+                <ScalarProperty Name="id_clt" ColumnName="id_clt" />
+                <ScalarProperty Name="client" ColumnName="client" />
+                <ScalarProperty Name="numerodevis" ColumnName="numerodevis" />
+                <ScalarProperty Name="comment" ColumnName="comment" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="bon_livraison">
+            <EntityTypeMapping TypeName="NewCampusModel.bon_livraison">
+              <MappingFragment StoreEntitySet="bon_livraison">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="numero_bl" ColumnName="numero_bl" />
+                <ScalarProperty Name="date_ajout" ColumnName="date_ajout" />
+                <ScalarProperty Name="etat" ColumnName="etat" />
+                <ScalarProperty Name="montant_BL" ColumnName="montant_BL" />
+                <ScalarProperty Name="remise" ColumnName="remise" />
+                <ScalarProperty Name="prixremise" ColumnName="prixremise" />
+                <ScalarProperty Name="id_clt" ColumnName="id_clt" />
+                <ScalarProperty Name="client" ColumnName="client" />
+                <ScalarProperty Name="id_fact" ColumnName="id_fact" />
+                <ScalarProperty Name="id_commande" ColumnName="id_commande" />
+                <ScalarProperty Name="comment" ColumnName="comment" />
+                <ScalarProperty Name="adresse" ColumnName="adresse" />
+                <ScalarProperty Name="tel" ColumnName="tel" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="bon_sortie">
+            <EntityTypeMapping TypeName="NewCampusModel.bon_sortie">
+              <MappingFragment StoreEntitySet="bon_sortie">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="numero_bs" ColumnName="numero_bs" />
+                <ScalarProperty Name="date_ajout" ColumnName="date_ajout" />
+                <ScalarProperty Name="etat" ColumnName="etat" />
+                <ScalarProperty Name="montant_BS" ColumnName="montant_BS" />
+                <ScalarProperty Name="id_clt" ColumnName="id_clt" />
+                <ScalarProperty Name="client" ColumnName="client" />
+                <ScalarProperty Name="id_fact" ColumnName="id_fact" />
+                <ScalarProperty Name="id_commande" ColumnName="id_commande" />
+                <ScalarProperty Name="nbcmd" ColumnName="nbcmd" />
+                <ScalarProperty Name="mode_livraison" ColumnName="mode_livraison" />
+                <ScalarProperty Name="moyen_livraison" ColumnName="moyen_livraison" />
+                <ScalarProperty Name="lieu_livraison" ColumnName="lieu_livraison" />
+                <ScalarProperty Name="remise" ColumnName="remise" />
+                <ScalarProperty Name="totalSansRemise" ColumnName="totalSansRemise" />
+                <ScalarProperty Name="L_num_bl" ColumnName="L_num_bl" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BonRetour">
+            <EntityTypeMapping TypeName="NewCampusModel.BonRetour">
+              <MappingFragment StoreEntitySet="BonRetour">
+                <ScalarProperty Name="code" ColumnName="code" />
+                <ScalarProperty Name="date" ColumnName="date" />
+                <ScalarProperty Name="idfr" ColumnName="idfr" />
+                <ScalarProperty Name="nomfr" ColumnName="nomfr" />
+                <ScalarProperty Name="numerocumul" ColumnName="numerocumul" />
+                <ScalarProperty Name="type" ColumnName="type" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="client">
+            <EntityTypeMapping TypeName="NewCampusModel.client">
+              <MappingFragment StoreEntitySet="client">
+                <ScalarProperty Name="codeclient" ColumnName="codeclient" />
+                <ScalarProperty Name="numerocl" ColumnName="numerocl" />
+                <ScalarProperty Name="raisonsoc" ColumnName="raisonsoc" />
+                <ScalarProperty Name="resp" ColumnName="resp" />
+                <ScalarProperty Name="qualite" ColumnName="qualite" />
+                <ScalarProperty Name="tel" ColumnName="tel" />
+                <ScalarProperty Name="mobile" ColumnName="mobile" />
+                <ScalarProperty Name="adresse" ColumnName="adresse" />
+                <ScalarProperty Name="codepostal" ColumnName="codepostal" />
+                <ScalarProperty Name="ville" ColumnName="ville" />
+                <ScalarProperty Name="web" ColumnName="web" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="fax" ColumnName="fax" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CumulEnt">
+            <EntityTypeMapping TypeName="NewCampusModel.CumulEnt">
+              <MappingFragment StoreEntitySet="CumulEnt">
+                <ScalarProperty Name="code" ColumnName="code" />
+                <ScalarProperty Name="date" ColumnName="date" />
+                <ScalarProperty Name="idfr" ColumnName="idfr" />
+                <ScalarProperty Name="nomfr" ColumnName="nomfr" />
+                <ScalarProperty Name="numerocumul" ColumnName="numerocumul" />
+                <ScalarProperty Name="type" ColumnName="type" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Cumulsortie">
+            <EntityTypeMapping TypeName="NewCampusModel.Cumulsortie">
+              <MappingFragment StoreEntitySet="Cumulsortie">
+                <ScalarProperty Name="code" ColumnName="code" />
+                <ScalarProperty Name="date" ColumnName="date" />
+                <ScalarProperty Name="idfr" ColumnName="idfr" />
+                <ScalarProperty Name="nomfr" ColumnName="nomfr" />
+                <ScalarProperty Name="numerocumul" ColumnName="numerocumul" />
+                <ScalarProperty Name="type" ColumnName="type" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="devis">
+            <EntityTypeMapping TypeName="NewCampusModel.devis">
+              <MappingFragment StoreEntitySet="devis">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="numero_devis" ColumnName="numero_devis" />
+                <ScalarProperty Name="date_ajout" ColumnName="date_ajout" />
+                <ScalarProperty Name="id_clt" ColumnName="id_clt" />
+                <ScalarProperty Name="client" ColumnName="client" />
+                <ScalarProperty Name="totalSansRemise" ColumnName="totalSansRemise" />
+                <ScalarProperty Name="remise" ColumnName="remise" />
+                <ScalarProperty Name="montant_devis" ColumnName="montant_devis" />
+                <ScalarProperty Name="etat" ColumnName="etat" />
+                <ScalarProperty Name="comment" ColumnName="comment" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dossierpublication">
+            <EntityTypeMapping TypeName="NewCampusModel.Dossierpublication">
+              <MappingFragment StoreEntitySet="Dossierpublication">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="ndossier" ColumnName="ndossier" />
+                <ScalarProperty Name="titre" ColumnName="titre" />
+                <ScalarProperty Name="discipline" ColumnName="discipline" />
+                <ScalarProperty Name="idauteur" ColumnName="idauteur" />
+                <ScalarProperty Name="auteur" ColumnName="auteur" />
+                <ScalarProperty Name="datedepo" ColumnName="datedepo" />
+                <ScalarProperty Name="support" ColumnName="support" />
+                <ScalarProperty Name="nbpage" ColumnName="nbpage" />
+                <ScalarProperty Name="format" ColumnName="format" />
+                <ScalarProperty Name="formatpapierinter" ColumnName="formatpapierinter" />
+                <ScalarProperty Name="nbpagenormal" ColumnName="nbpagenormal" />
+                <ScalarProperty Name="nbpagecolor" ColumnName="nbpagecolor" />
+                <ScalarProperty Name="couverture" ColumnName="couverture" />
+                <ScalarProperty Name="finition" ColumnName="finition" />
+                <ScalarProperty Name="nboncommande" ColumnName="nboncommande" />
+                <ScalarProperty Name="datecommande" ColumnName="datecommande" />
+                <ScalarProperty Name="idimp" ColumnName="idimp" />
+                <ScalarProperty Name="imp" ColumnName="imp" />
+                <ScalarProperty Name="tirage" ColumnName="tirage" />
+                <ScalarProperty Name="reedition" ColumnName="reedition" />
+                <ScalarProperty Name="nedition" ColumnName="nedition" />
+                <ScalarProperty Name="coedition" ColumnName="coedition" />
+                <ScalarProperty Name="coediteur" ColumnName="coediteur" />
+                <ScalarProperty Name="contratcoedition" ColumnName="contratcoedition" />
+                <ScalarProperty Name="bcmdcoedit" ColumnName="bcmdcoedit" />
+                <ScalarProperty Name="isbn" ColumnName="isbn" />
+                <ScalarProperty Name="prix" ColumnName="prix" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Droit">
+            <EntityTypeMapping TypeName="NewCampusModel.Droit">
+              <MappingFragment StoreEntitySet="Droit">
+                <ScalarProperty Name="code" ColumnName="code" />
+                <ScalarProperty Name="nom" ColumnName="nom" />
+                <ScalarProperty Name="prenom" ColumnName="prenom" />
+                <ScalarProperty Name="gsm" ColumnName="gsm" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="fonction" ColumnName="fonction" />
+                <ScalarProperty Name="utilisabilite" ColumnName="utilisabilite" />
+                <ScalarProperty Name="login" ColumnName="login" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="GestClt" ColumnName="GestClt" />
+                <ScalarProperty Name="GestAut" ColumnName="GestAut" />
+                <ScalarProperty Name="GestSt" ColumnName="GestSt" />
+                <ScalarProperty Name="GestVente" ColumnName="GestVente" />
+                <ScalarProperty Name="GestDup" ColumnName="GestDup" />
+                <ScalarProperty Name="GestStat" ColumnName="GestStat" />
+                <ScalarProperty Name="GestRapp" ColumnName="GestRapp" />
+                <ScalarProperty Name="GestCompta" ColumnName="GestCompta" />
+                <ScalarProperty Name="GestPub" ColumnName="GestPub" />
+                <ScalarProperty Name="GestAdmin" ColumnName="GestAdmin" />
+                <ScalarProperty Name="GestFr" ColumnName="GestFr" />
+                <ScalarProperty Name="GestDon" ColumnName="GestDon" />
+                <ScalarProperty Name="GestFourniture" ColumnName="GestFourniture" />
+                <ScalarProperty Name="GestDevis" ColumnName="GestDevis" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="emplacement">
+            <EntityTypeMapping TypeName="NewCampusModel.emplacement">
+              <MappingFragment StoreEntitySet="emplacement">
+                <ScalarProperty Name="idemp" ColumnName="idemp" />
+                <ScalarProperty Name="empdesign" ColumnName="empdesign" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Facture">
+            <EntityTypeMapping TypeName="NewCampusModel.Facture">
+              <MappingFragment StoreEntitySet="Facture">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="NumeroFacture" ColumnName="NumeroFacture" />
+                <ScalarProperty Name="date_ajout" ColumnName="date_ajout" />
+                <ScalarProperty Name="id_clt" ColumnName="id_clt" />
+                <ScalarProperty Name="intitule" ColumnName="intitule" />
+                <ScalarProperty Name="Adresse" ColumnName="Adresse" />
+                <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+                <ScalarProperty Name="L_num_bl" ColumnName="L_num_bl" />
+                <ScalarProperty Name="quittance" ColumnName="quittance" />
+                <ScalarProperty Name="datequittance" ColumnName="datequittance" />
+                <ScalarProperty Name="Titre" ColumnName="Titre" />
+                <ScalarProperty Name="Montantbrut" ColumnName="Montantbrut" />
+                <ScalarProperty Name="remise" ColumnName="remise" />
+                <ScalarProperty Name="totalremise" ColumnName="totalremise" />
+                <ScalarProperty Name="montantnet" ColumnName="montantnet" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FactureDetail">
+            <EntityTypeMapping TypeName="NewCampusModel.FactureDetail">
+              <MappingFragment StoreEntitySet="FactureDetail">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="nfacture" ColumnName="nfacture" />
+                <ScalarProperty Name="nligne" ColumnName="nligne" />
+                <ScalarProperty Name="date" ColumnName="date" />
+                <ScalarProperty Name="client" ColumnName="client" />
+                <ScalarProperty Name="article" ColumnName="article" />
+                <ScalarProperty Name="quantite" ColumnName="quantite" />
+                <ScalarProperty Name="pu" ColumnName="pu" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="facturevente">
+            <EntityTypeMapping TypeName="NewCampusModel.facturevente">
+              <MappingFragment StoreEntitySet="facturevente">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="numero_fact" ColumnName="numero_fact" />
+                <ScalarProperty Name="date_ajout" ColumnName="date_ajout" />
+                <ScalarProperty Name="id_clt" ColumnName="id_clt" />
+                <ScalarProperty Name="client" ColumnName="client" />
+                <ScalarProperty Name="montant_hr" ColumnName="montant_hr" />
+                <ScalarProperty Name="remise" ColumnName="remise" />
+                <ScalarProperty Name="montant" ColumnName="montant" />
+                <ScalarProperty Name="retenusource" ColumnName="retenusource" />
+                <ScalarProperty Name="id_bl" ColumnName="id_bl" />
+                <ScalarProperty Name="L_num_bl" ColumnName="L_num_bl" />
+                <ScalarProperty Name="RefCmd" ColumnName="RefCmd" />
+                <ScalarProperty Name="etat" ColumnName="etat" />
+                <ScalarProperty Name="reste" ColumnName="reste" />
+                <ScalarProperty Name="quittance" ColumnName="quittance" />
+                <ScalarProperty Name="datequittance" ColumnName="datequittance" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="famille">
+            <EntityTypeMapping TypeName="NewCampusModel.famille">
+              <MappingFragment StoreEntitySet="famille">
+                <ScalarProperty Name="idfamille" ColumnName="idfamille" />
+                <ScalarProperty Name="familledesign" ColumnName="familledesign" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ficheauteur">
+            <EntityTypeMapping TypeName="NewCampusModel.ficheauteur">
+              <MappingFragment StoreEntitySet="ficheauteur">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="nom" ColumnName="nom" />
+                <ScalarProperty Name="prenom" ColumnName="prenom" />
+                <ScalarProperty Name="telephone" ColumnName="telephone" />
+                <ScalarProperty Name="fax" ColumnName="fax" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="presentation" ColumnName="presentation" />
+                <ScalarProperty Name="fichepresentation" ColumnName="fichepresentation" />
+                <ScalarProperty Name="extpr" ColumnName="extpr" />
+                <ScalarProperty Name="biographie" ColumnName="biographie" />
+                <ScalarProperty Name="resumebiographie" ColumnName="resumebiographie" />
+                <ScalarProperty Name="extbiog" ColumnName="extbiog" />
+                <ScalarProperty Name="photoauteur" ColumnName="photoauteur" />
+                <ScalarProperty Name="photo" ColumnName="photo" />
+                <ScalarProperty Name="extphoto" ColumnName="extphoto" />
+                <ScalarProperty Name="couverture" ColumnName="couverture" />
+                <ScalarProperty Name="propositioncouvert" ColumnName="propositioncouvert" />
+                <ScalarProperty Name="extcouv" ColumnName="extcouv" />
+                <ScalarProperty Name="ndossier" ColumnName="ndossier" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="fichesuivi">
+            <EntityTypeMapping TypeName="NewCampusModel.fichesuivi">
+              <MappingFragment StoreEntitySet="fichesuivi">
+                <ScalarProperty Name="idfiche" ColumnName="idfiche" />
+                <ScalarProperty Name="ndossier" ColumnName="ndossier" />
+                <ScalarProperty Name="idagent" ColumnName="idagent" />
+                <ScalarProperty Name="agent" ColumnName="agent" />
+                <ScalarProperty Name="datereception" ColumnName="datereception" />
+                <ScalarProperty Name="observation" ColumnName="observation" />
+                <ScalarProperty Name="datemaj" ColumnName="datemaj" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="fournisseur">
+            <EntityTypeMapping TypeName="NewCampusModel.fournisseur">
+              <MappingFragment StoreEntitySet="fournisseur">
+                <ScalarProperty Name="codefr" ColumnName="codefr" />
+                <ScalarProperty Name="numerofr" ColumnName="numerofr" />
+                <ScalarProperty Name="raisonfr" ColumnName="raisonfr" />
+                <ScalarProperty Name="responsable" ColumnName="responsable" />
+                <ScalarProperty Name="mobile" ColumnName="mobile" />
+                <ScalarProperty Name="tel" ColumnName="tel" />
+                <ScalarProperty Name="adress" ColumnName="adress" />
+                <ScalarProperty Name="ville" ColumnName="ville" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="web" ColumnName="web" />
+                <ScalarProperty Name="codepostal" ColumnName="codepostal" />
+                <ScalarProperty Name="image" ColumnName="image" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Fourniture">
+            <EntityTypeMapping TypeName="NewCampusModel.Fourniture">
+              <MappingFragment StoreEntitySet="Fourniture">
+                <ScalarProperty Name="idfour" ColumnName="idfour" />
+                <ScalarProperty Name="codefour" ColumnName="codefour" />
+                <ScalarProperty Name="famille" ColumnName="famille" />
+                <ScalarProperty Name="idfamille" ColumnName="idfamille" />
+                <ScalarProperty Name="sousfamille" ColumnName="sousfamille" />
+                <ScalarProperty Name="idsousfamille" ColumnName="idsousfamille" />
+                <ScalarProperty Name="designation" ColumnName="designation" />
+                <ScalarProperty Name="fournisseur" ColumnName="fournisseur" />
+                <ScalarProperty Name="quantitenstock" ColumnName="quantitenstock" />
+                <ScalarProperty Name="prixAchat" ColumnName="prixAchat" />
+                <ScalarProperty Name="image" ColumnName="image" />
+                <ScalarProperty Name="seuil" ColumnName="seuil" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ligne_avoir">
+            <EntityTypeMapping TypeName="NewCampusModel.ligne_avoir">
+              <MappingFragment StoreEntitySet="ligne_avoir">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="id_avoir" ColumnName="id_avoir" />
+                <ScalarProperty Name="code_art" ColumnName="code_art" />
+                <ScalarProperty Name="designation" ColumnName="designation" />
+                <ScalarProperty Name="quantite" ColumnName="quantite" />
+                <ScalarProperty Name="puv" ColumnName="puv" />
+                <ScalarProperty Name="total" ColumnName="total" />
+                <ScalarProperty Name="remise" ColumnName="remise" />
+                <ScalarProperty Name="prixremise" ColumnName="prixremise" />
+                <ScalarProperty Name="idauteur" ColumnName="idauteur" />
+                <ScalarProperty Name="etatpaiement" ColumnName="etatpaiement" />
+                <ScalarProperty Name="comment" ColumnName="comment" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ligne_bc">
+            <EntityTypeMapping TypeName="NewCampusModel.ligne_bc">
+              <MappingFragment StoreEntitySet="ligne_bc">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="id_bc" ColumnName="id_bc" />
+                <ScalarProperty Name="code_art" ColumnName="code_art" />
+                <ScalarProperty Name="designation_article" ColumnName="designation_article" />
+                <ScalarProperty Name="quantite_article" ColumnName="quantite_article" />
+                <ScalarProperty Name="puv" ColumnName="puv" />
+                <ScalarProperty Name="totvente" ColumnName="totvente" />
+                <ScalarProperty Name="remise" ColumnName="remise" />
+                <ScalarProperty Name="prixremis" ColumnName="prixremis" />
+                <ScalarProperty Name="idauteur" ColumnName="idauteur" />
+                <ScalarProperty Name="qtitservi" ColumnName="qtitservi" />
+                <ScalarProperty Name="qtitrest" ColumnName="qtitrest" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ligne_bl">
+            <EntityTypeMapping TypeName="NewCampusModel.ligne_bl">
+              <MappingFragment StoreEntitySet="ligne_bl">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="id_bl" ColumnName="id_bl" />
+                <ScalarProperty Name="code_art" ColumnName="code_art" />
+                <ScalarProperty Name="designation_article" ColumnName="designation_article" />
+                <ScalarProperty Name="quantite_article" ColumnName="quantite_article" />
+                <ScalarProperty Name="puv" ColumnName="puv" />
+                <ScalarProperty Name="total" ColumnName="total" />
+                <ScalarProperty Name="remise" ColumnName="remise" />
+                <ScalarProperty Name="prixremise" ColumnName="prixremise" />
+                <ScalarProperty Name="idauteur" ColumnName="idauteur" />
+                <ScalarProperty Name="etatpaiement" ColumnName="etatpaiement" />
+                <ScalarProperty Name="idcmd" ColumnName="idcmd" />
+                <ScalarProperty Name="numligne" ColumnName="numligne" />
+                <ScalarProperty Name="date" ColumnName="date" />
+                <ScalarProperty Name="client" ColumnName="client" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ligne_bs">
+            <EntityTypeMapping TypeName="NewCampusModel.ligne_bs">
+              <MappingFragment StoreEntitySet="ligne_bs">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="id_bs" ColumnName="id_bs" />
+                <ScalarProperty Name="code_art" ColumnName="code_art" />
+                <ScalarProperty Name="designation_article" ColumnName="designation_article" />
+                <ScalarProperty Name="quantite_article" ColumnName="quantite_article" />
+                <ScalarProperty Name="puv" ColumnName="puv" />
+                <ScalarProperty Name="remise" ColumnName="remise" />
+                <ScalarProperty Name="prixRemise" ColumnName="prixRemise" />
+                <ScalarProperty Name="total" ColumnName="total" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ligne_devis">
+            <EntityTypeMapping TypeName="NewCampusModel.ligne_devis">
+              <MappingFragment StoreEntitySet="ligne_devis">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="id_devis" ColumnName="id_devis" />
+                <ScalarProperty Name="code_art" ColumnName="code_art" />
+                <ScalarProperty Name="designation_article" ColumnName="designation_article" />
+                <ScalarProperty Name="quantite_article" ColumnName="quantite_article" />
+                <ScalarProperty Name="puv" ColumnName="puv" />
+                <ScalarProperty Name="remise" ColumnName="remise" />
+                <ScalarProperty Name="totalsansremise" ColumnName="totalsansremise" />
+                <ScalarProperty Name="total" ColumnName="total" />
+                <ScalarProperty Name="idauteur" ColumnName="idauteur" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Livre">
+            <EntityTypeMapping TypeName="NewCampusModel.Livre">
+              <MappingFragment StoreEntitySet="Livre">
+                <ScalarProperty Name="Rang" ColumnName="Rang" />
+                <ScalarProperty Name="codeart" ColumnName="codeart" />
+                <ScalarProperty Name="titre" ColumnName="titre" />
+                <ScalarProperty Name="dateedition" ColumnName="dateedition" />
+                <ScalarProperty Name="imprimerie" ColumnName="imprimerie" />
+                <ScalarProperty Name="auteur" ColumnName="auteur" />
+                <ScalarProperty Name="isbn" ColumnName="isbn" />
+                <ScalarProperty Name="codeabarre" ColumnName="codeabarre" />
+                <ScalarProperty Name="quantitenstock" ColumnName="quantitenstock" />
+                <ScalarProperty Name="prixachat" ColumnName="prixachat" />
+                <ScalarProperty Name="pvpublic" ColumnName="pvpublic" />
+                <ScalarProperty Name="pvetudiant" ColumnName="pvetudiant" />
+                <ScalarProperty Name="pvfoire" ColumnName="pvfoire" />
+                <ScalarProperty Name="pvdepositaire" ColumnName="pvdepositaire" />
+                <ScalarProperty Name="image" ColumnName="image" />
+                <ScalarProperty Name="emplacement" ColumnName="emplacement" />
+                <ScalarProperty Name="famille" ColumnName="famille" />
+                <ScalarProperty Name="qtitreelle" ColumnName="qtitreelle" />
+                <ScalarProperty Name="stockalert" ColumnName="stockalert" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Piece_bonret">
+            <EntityTypeMapping TypeName="NewCampusModel.Piece_bonret">
+              <MappingFragment StoreEntitySet="Piece_bonret">
+                <ScalarProperty Name="code" ColumnName="code" />
+                <ScalarProperty Name="Codecumul" ColumnName="Codecumul" />
+                <ScalarProperty Name="Codearticle" ColumnName="Codearticle" />
+                <ScalarProperty Name="nomart" ColumnName="nomart" />
+                <ScalarProperty Name="quantite" ColumnName="quantite" />
+                <ScalarProperty Name="date" ColumnName="date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Piece_cumulent">
+            <EntityTypeMapping TypeName="NewCampusModel.Piece_cumulent">
+              <MappingFragment StoreEntitySet="Piece_cumulent">
+                <ScalarProperty Name="code" ColumnName="code" />
+                <ScalarProperty Name="Codecumul" ColumnName="Codecumul" />
+                <ScalarProperty Name="Codearticle" ColumnName="Codearticle" />
+                <ScalarProperty Name="nomart" ColumnName="nomart" />
+                <ScalarProperty Name="quantite" ColumnName="quantite" />
+                <ScalarProperty Name="pua" ColumnName="pua" />
+                <ScalarProperty Name="date" ColumnName="date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Piece_cumulsortie">
+            <EntityTypeMapping TypeName="NewCampusModel.Piece_cumulsortie">
+              <MappingFragment StoreEntitySet="Piece_cumulsortie">
+                <ScalarProperty Name="code" ColumnName="code" />
+                <ScalarProperty Name="Codecumul" ColumnName="Codecumul" />
+                <ScalarProperty Name="Codearticle" ColumnName="Codearticle" />
+                <ScalarProperty Name="nomart" ColumnName="nomart" />
+                <ScalarProperty Name="quantite" ColumnName="quantite" />
+                <ScalarProperty Name="puv" ColumnName="puv" />
+                <ScalarProperty Name="date" ColumnName="date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="piece_fact">
+            <EntityTypeMapping TypeName="NewCampusModel.piece_fact">
+              <MappingFragment StoreEntitySet="piece_fact">
+                <ScalarProperty Name="id_piece" ColumnName="id_piece" />
+                <ScalarProperty Name="code_piece_u" ColumnName="code_piece_u" />
+                <ScalarProperty Name="libelle_piece_u" ColumnName="libelle_piece_u" />
+                <ScalarProperty Name="quantite_piece_u" ColumnName="quantite_piece_u" />
+                <ScalarProperty Name="id_fact" ColumnName="id_fact" />
+                <ScalarProperty Name="puv" ColumnName="puv" />
+                <ScalarProperty Name="remise" ColumnName="remise" />
+                <ScalarProperty Name="pv" ColumnName="pv" />
+                <ScalarProperty Name="idauteur" ColumnName="idauteur" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Quittance">
+            <EntityTypeMapping TypeName="NewCampusModel.Quittance">
+              <MappingFragment StoreEntitySet="Quittance">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Nquiitance" ColumnName="Nquiitance" />
+                <ScalarProperty Name="datequittance" ColumnName="datequittance" />
+                <ScalarProperty Name="nfact" ColumnName="nfact" />
+                <ScalarProperty Name="idclient" ColumnName="idclient" />
+                <ScalarProperty Name="total" ColumnName="total" />
+                <ScalarProperty Name="remise" ColumnName="remise" />
+                <ScalarProperty Name="netapayer" ColumnName="netapayer" />
+                <ScalarProperty Name="mode" ColumnName="mode" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Reglement">
+            <EntityTypeMapping TypeName="NewCampusModel.Reglement">
+              <MappingFragment StoreEntitySet="Reglement">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="date" ColumnName="date" />
+                <ScalarProperty Name="nfacture" ColumnName="nfacture" />
+                <ScalarProperty Name="idclient" ColumnName="idclient" />
+                <ScalarProperty Name="montant" ColumnName="montant" />
+                <ScalarProperty Name="remise" ColumnName="remise" />
+                <ScalarProperty Name="netapayer" ColumnName="netapayer" />
+                <ScalarProperty Name="typereglement" ColumnName="typereglement" />
+                <ScalarProperty Name="banque" ColumnName="banque" />
+                <ScalarProperty Name="RIB" ColumnName="RIB" />
+                <ScalarProperty Name="ndoc" ColumnName="ndoc" />
+                <ScalarProperty Name="echeance" ColumnName="echeance" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="reservation">
+            <EntityTypeMapping TypeName="NewCampusModel.reservation">
+              <MappingFragment StoreEntitySet="reservation">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="ncmd" ColumnName="ncmd" />
+                <ScalarProperty Name="article" ColumnName="article" />
+                <ScalarProperty Name="date" ColumnName="date" />
+                <ScalarProperty Name="quantit" ColumnName="quantit" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="societe">
+            <EntityTypeMapping TypeName="NewCampusModel.societe">
+              <MappingFragment StoreEntitySet="societe">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="rsoc" ColumnName="rsoc" />
+                <ScalarProperty Name="adresse" ColumnName="adresse" />
+                <ScalarProperty Name="codpost" ColumnName="codpost" />
+                <ScalarProperty Name="ville" ColumnName="ville" />
+                <ScalarProperty Name="mobile" ColumnName="mobile" />
+                <ScalarProperty Name="tel" ColumnName="tel" />
+                <ScalarProperty Name="fax" ColumnName="fax" />
+                <ScalarProperty Name="mail" ColumnName="mail" />
+                <ScalarProperty Name="siteweb" ColumnName="siteweb" />
+                <ScalarProperty Name="logo" ColumnName="logo" />
+                <ScalarProperty Name="assujetitva" ColumnName="assujetitva" />
+                <ScalarProperty Name="numtva" ColumnName="numtva" />
+                <ScalarProperty Name="activite" ColumnName="activite" />
+                <ScalarProperty Name="nomresp" ColumnName="nomresp" />
+                <ScalarProperty Name="formejuridique" ColumnName="formejuridique" />
+                <ScalarProperty Name="matfisc" ColumnName="matfisc" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sousfamille">
+            <EntityTypeMapping TypeName="NewCampusModel.sousfamille">
+              <MappingFragment StoreEntitySet="sousfamille">
+                <ScalarProperty Name="idsousfamille" ColumnName="idsousfamille" />
+                <ScalarProperty Name="familleid" ColumnName="familleid" />
+                <ScalarProperty Name="familledesign" ColumnName="familledesign" />
+                <ScalarProperty Name="sousfamilledesign" ColumnName="sousfamilledesign" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="specialite">
+            <EntityTypeMapping TypeName="NewCampusModel.specialite">
+              <MappingFragment StoreEntitySet="specialite">
+                <ScalarProperty Name="idsp" ColumnName="idsp" />
+                <ScalarProperty Name="designation" ColumnName="designation" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="SelectArticle" FunctionName="NewCampusModel.Store.SelectArticle">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="NewCampusModel.SelectArticle_Result">
+                <ScalarProperty Name="codeart" ColumnName="codeart" />
+                <ScalarProperty Name="titre" ColumnName="titre" />
+                <ScalarProperty Name="isbn" ColumnName="isbn" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="spFindlistartstartby" FunctionName="NewCampusModel.Store.spFindlistartstartby">
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="spRapportArt" FunctionName="NewCampusModel.Store.spRapportArt">
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="getartinfo" FunctionName="NewCampusModel.Store.getartinfo">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="NewCampusModel.getartinfo_Result">
+                <ScalarProperty Name="codeart" ColumnName="codeart" />
+                <ScalarProperty Name="titre" ColumnName="titre" />
+                <ScalarProperty Name="quantitenstock" ColumnName="quantitenstock" />
+                <ScalarProperty Name="qtitreelle" ColumnName="qtitreelle" />
+                <ScalarProperty Name="stockalert" ColumnName="stockalert" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="findArtbref" FunctionName="NewCampusModel.Store.findArtbref">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="NewCampusModel.findArtbref_Result">
+                <ScalarProperty Name="Rang" ColumnName="Rang" />
+                <ScalarProperty Name="codeart" ColumnName="codeart" />
+                <ScalarProperty Name="titre" ColumnName="titre" />
+                <ScalarProperty Name="imprimerie" ColumnName="imprimerie" />
+                <ScalarProperty Name="auteur" ColumnName="auteur" />
+                <ScalarProperty Name="isbn" ColumnName="isbn" />
+                <ScalarProperty Name="codeabarre" ColumnName="codeabarre" />
+                <ScalarProperty Name="quantitenstock" ColumnName="quantitenstock" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <EntitySetMapping Name="InfoLivre">
+            <EntityTypeMapping TypeName="NewCampusModel.InfoLivre">
+              <MappingFragment StoreEntitySet="InfoLivre">
+                <ScalarProperty Name="quantitenstock" ColumnName="quantitenstock" />
+                <ScalarProperty Name="codeabarre" ColumnName="codeabarre" />
+                <ScalarProperty Name="isbn" ColumnName="isbn" />
+                <ScalarProperty Name="auteur" ColumnName="auteur" />
+                <ScalarProperty Name="imprimerie" ColumnName="imprimerie" />
+                <ScalarProperty Name="titre" ColumnName="titre" />
+                <ScalarProperty Name="codeart" ColumnName="codeart" />
+                <ScalarProperty Name="Rang" ColumnName="Rang" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,20 @@
+E:\dossier click2web last\All final\newlooksmartclick\DAL\bin\Debug\DAL.dll.config
+E:\dossier click2web last\All final\newlooksmartclick\DAL\bin\Debug\DAL.dll
+E:\dossier click2web last\All final\newlooksmartclick\DAL\bin\Debug\DAL.pdb
+E:\dossier click2web last\All final\newlooksmartclick\DAL\bin\Debug\EntityFramework.dll
+E:\dossier click2web last\All final\newlooksmartclick\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\dossier click2web last\All final\newlooksmartclick\DAL\bin\Debug\EntityFramework.xml
+E:\dossier click2web last\All final\newlooksmartclick\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\dossier click2web last\All final\newlooksmartclick\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\dossier click2web last\All final\newlooksmartclick\DAL\obj\Debug\DAL.dll
+E:\dossier click2web last\All final\newlooksmartclick\DAL\obj\Debug\DAL.pdb
+D:\bureau click\copie manouba\newlooksmartclick\DAL\bin\Debug\DAL.dll.config
+D:\bureau click\copie manouba\newlooksmartclick\DAL\bin\Debug\DAL.dll
+D:\bureau click\copie manouba\newlooksmartclick\DAL\bin\Debug\DAL.pdb
+D:\bureau click\copie manouba\newlooksmartclick\DAL\bin\Debug\EntityFramework.dll
+D:\bureau click\copie manouba\newlooksmartclick\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\bureau click\copie manouba\newlooksmartclick\DAL\bin\Debug\EntityFramework.xml
+D:\bureau click\copie manouba\newlooksmartclick\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\bureau click\copie manouba\newlooksmartclick\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\bureau click\copie manouba\newlooksmartclick\DAL\obj\Debug\DAL.dll
+D:\bureau click\copie manouba\newlooksmartclick\DAL\obj\Debug\DAL.pdb

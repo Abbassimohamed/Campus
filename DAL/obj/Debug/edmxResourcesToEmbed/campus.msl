@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NewCampusModelStoreContainer" CdmEntityContainer="NewCampusEntities">
+    <EntitySetMapping Name="agent">
+      <EntityTypeMapping TypeName="NewCampusModel.agent">
+        <MappingFragment StoreEntitySet="agent">
+          <ScalarProperty Name="idagent" ColumnName="idagent" />
+          <ScalarProperty Name="cin" ColumnName="cin" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="prenom" ColumnName="prenom" />
+          <ScalarProperty Name="numtel" ColumnName="numtel" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="specialite" ColumnName="specialite" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="auteur">
+      <EntityTypeMapping TypeName="NewCampusModel.auteur">
+        <MappingFragment StoreEntitySet="auteur">
+          <ScalarProperty Name="codeauteur" ColumnName="codeauteur" />
+          <ScalarProperty Name="numeroaut" ColumnName="numeroaut" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="prenom" ColumnName="prenom" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="adr" ColumnName="adr" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="institution" ColumnName="institution" />
+          <ScalarProperty Name="specialite" ColumnName="specialite" />
+          <ScalarProperty Name="ville" ColumnName="ville" />
+          <ScalarProperty Name="codepostal" ColumnName="codepostal" />
+          <ScalarProperty Name="web" ColumnName="web" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="cin" ColumnName="cin" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Avoir">
+      <EntityTypeMapping TypeName="NewCampusModel.Avoir">
+        <MappingFragment StoreEntitySet="Avoir">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="numeroavoir" ColumnName="numeroavoir" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="idclt" ColumnName="idclt" />
+          <ScalarProperty Name="client" ColumnName="client" />
+          <ScalarProperty Name="montant" ColumnName="montant" />
+          <ScalarProperty Name="remise" ColumnName="remise" />
+          <ScalarProperty Name="montanttotal" ColumnName="montanttotal" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Banque">
+      <EntityTypeMapping TypeName="NewCampusModel.Banque">
+        <MappingFragment StoreEntitySet="Banque">
+          <ScalarProperty Name="idbanque" ColumnName="idbanque" />
+          <ScalarProperty Name="nombanque" ColumnName="nombanque" />
+          <ScalarProperty Name="rib" ColumnName="rib" />
+          <ScalarProperty Name="soldeinitial" ColumnName="soldeinitial" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bon_commande">
+      <EntityTypeMapping TypeName="NewCampusModel.bon_commande">
+        <MappingFragment StoreEntitySet="bon_commande">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="numero_bc" ColumnName="numero_bc" />
+          <ScalarProperty Name="date_ajout" ColumnName="date_ajout" />
+          <ScalarProperty Name="etat" ColumnName="etat" />
+          <ScalarProperty Name="montant" ColumnName="montant" />
+          <ScalarProperty Name="remise" ColumnName="remise" />
+          <ScalarProperty Name="prixremise" ColumnName="prixremise" />
+          <ScalarProperty Name="id_clt" ColumnName="id_clt" />
+          <ScalarProperty Name="client" ColumnName="client" />
+          <ScalarProperty Name="numerodevis" ColumnName="numerodevis" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bon_livraison">
+      <EntityTypeMapping TypeName="NewCampusModel.bon_livraison">
+        <MappingFragment StoreEntitySet="bon_livraison">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="numero_bl" ColumnName="numero_bl" />
+          <ScalarProperty Name="date_ajout" ColumnName="date_ajout" />
+          <ScalarProperty Name="etat" ColumnName="etat" />
+          <ScalarProperty Name="montant_BL" ColumnName="montant_BL" />
+          <ScalarProperty Name="remise" ColumnName="remise" />
+          <ScalarProperty Name="prixremise" ColumnName="prixremise" />
+          <ScalarProperty Name="id_clt" ColumnName="id_clt" />
+          <ScalarProperty Name="client" ColumnName="client" />
+          <ScalarProperty Name="id_fact" ColumnName="id_fact" />
+          <ScalarProperty Name="id_commande" ColumnName="id_commande" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
+          <ScalarProperty Name="adresse" ColumnName="adresse" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bon_sortie">
+      <EntityTypeMapping TypeName="NewCampusModel.bon_sortie">
+        <MappingFragment StoreEntitySet="bon_sortie">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="numero_bs" ColumnName="numero_bs" />
+          <ScalarProperty Name="date_ajout" ColumnName="date_ajout" />
+          <ScalarProperty Name="etat" ColumnName="etat" />
+          <ScalarProperty Name="montant_BS" ColumnName="montant_BS" />
+          <ScalarProperty Name="id_clt" ColumnName="id_clt" />
+          <ScalarProperty Name="client" ColumnName="client" />
+          <ScalarProperty Name="id_fact" ColumnName="id_fact" />
+          <ScalarProperty Name="id_commande" ColumnName="id_commande" />
+          <ScalarProperty Name="nbcmd" ColumnName="nbcmd" />
+          <ScalarProperty Name="mode_livraison" ColumnName="mode_livraison" />
+          <ScalarProperty Name="moyen_livraison" ColumnName="moyen_livraison" />
+          <ScalarProperty Name="lieu_livraison" ColumnName="lieu_livraison" />
+          <ScalarProperty Name="remise" ColumnName="remise" />
+          <ScalarProperty Name="totalSansRemise" ColumnName="totalSansRemise" />
+          <ScalarProperty Name="L_num_bl" ColumnName="L_num_bl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BonRetour">
+      <EntityTypeMapping TypeName="NewCampusModel.BonRetour">
+        <MappingFragment StoreEntitySet="BonRetour">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="idfr" ColumnName="idfr" />
+          <ScalarProperty Name="nomfr" ColumnName="nomfr" />
+          <ScalarProperty Name="numerocumul" ColumnName="numerocumul" />
+          <ScalarProperty Name="type" ColumnName="type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="client">
+      <EntityTypeMapping TypeName="NewCampusModel.client">
+        <MappingFragment StoreEntitySet="client">
+          <ScalarProperty Name="codeclient" ColumnName="codeclient" />
+          <ScalarProperty Name="numerocl" ColumnName="numerocl" />
+          <ScalarProperty Name="raisonsoc" ColumnName="raisonsoc" />
+          <ScalarProperty Name="resp" ColumnName="resp" />
+          <ScalarProperty Name="qualite" ColumnName="qualite" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="adresse" ColumnName="adresse" />
+          <ScalarProperty Name="codepostal" ColumnName="codepostal" />
+          <ScalarProperty Name="ville" ColumnName="ville" />
+          <ScalarProperty Name="web" ColumnName="web" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CumulEnt">
+      <EntityTypeMapping TypeName="NewCampusModel.CumulEnt">
+        <MappingFragment StoreEntitySet="CumulEnt">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="idfr" ColumnName="idfr" />
+          <ScalarProperty Name="nomfr" ColumnName="nomfr" />
+          <ScalarProperty Name="numerocumul" ColumnName="numerocumul" />
+          <ScalarProperty Name="type" ColumnName="type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cumulsortie">
+      <EntityTypeMapping TypeName="NewCampusModel.Cumulsortie">
+        <MappingFragment StoreEntitySet="Cumulsortie">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="idfr" ColumnName="idfr" />
+          <ScalarProperty Name="nomfr" ColumnName="nomfr" />
+          <ScalarProperty Name="numerocumul" ColumnName="numerocumul" />
+          <ScalarProperty Name="type" ColumnName="type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="devis">
+      <EntityTypeMapping TypeName="NewCampusModel.devis">
+        <MappingFragment StoreEntitySet="devis">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="numero_devis" ColumnName="numero_devis" />
+          <ScalarProperty Name="date_ajout" ColumnName="date_ajout" />
+          <ScalarProperty Name="id_clt" ColumnName="id_clt" />
+          <ScalarProperty Name="client" ColumnName="client" />
+          <ScalarProperty Name="totalSansRemise" ColumnName="totalSansRemise" />
+          <ScalarProperty Name="remise" ColumnName="remise" />
+          <ScalarProperty Name="montant_devis" ColumnName="montant_devis" />
+          <ScalarProperty Name="etat" ColumnName="etat" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dossierpublication">
+      <EntityTypeMapping TypeName="NewCampusModel.Dossierpublication">
+        <MappingFragment StoreEntitySet="Dossierpublication">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ndossier" ColumnName="ndossier" />
+          <ScalarProperty Name="titre" ColumnName="titre" />
+          <ScalarProperty Name="discipline" ColumnName="discipline" />
+          <ScalarProperty Name="idauteur" ColumnName="idauteur" />
+          <ScalarProperty Name="auteur" ColumnName="auteur" />
+          <ScalarProperty Name="datedepo" ColumnName="datedepo" />
+          <ScalarProperty Name="support" ColumnName="support" />
+          <ScalarProperty Name="nbpage" ColumnName="nbpage" />
+          <ScalarProperty Name="format" ColumnName="format" />
+          <ScalarProperty Name="formatpapierinter" ColumnName="formatpapierinter" />
+          <ScalarProperty Name="nbpagenormal" ColumnName="nbpagenormal" />
+          <ScalarProperty Name="nbpagecolor" ColumnName="nbpagecolor" />
+          <ScalarProperty Name="couverture" ColumnName="couverture" />
+          <ScalarProperty Name="finition" ColumnName="finition" />
+          <ScalarProperty Name="nboncommande" ColumnName="nboncommande" />
+          <ScalarProperty Name="datecommande" ColumnName="datecommande" />
+          <ScalarProperty Name="idimp" ColumnName="idimp" />
+          <ScalarProperty Name="imp" ColumnName="imp" />
+          <ScalarProperty Name="tirage" ColumnName="tirage" />
+          <ScalarProperty Name="reedition" ColumnName="reedition" />
+          <ScalarProperty Name="nedition" ColumnName="nedition" />
+          <ScalarProperty Name="coedition" ColumnName="coedition" />
+          <ScalarProperty Name="coediteur" ColumnName="coediteur" />
+          <ScalarProperty Name="contratcoedition" ColumnName="contratcoedition" />
+          <ScalarProperty Name="bcmdcoedit" ColumnName="bcmdcoedit" />
+          <ScalarProperty Name="isbn" ColumnName="isbn" />
+          <ScalarProperty Name="prix" ColumnName="prix" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Droit">
+      <EntityTypeMapping TypeName="NewCampusModel.Droit">
+        <MappingFragment StoreEntitySet="Droit">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="prenom" ColumnName="prenom" />
+          <ScalarProperty Name="gsm" ColumnName="gsm" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="fonction" ColumnName="fonction" />
+          <ScalarProperty Name="utilisabilite" ColumnName="utilisabilite" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="GestClt" ColumnName="GestClt" />
+          <ScalarProperty Name="GestAut" ColumnName="GestAut" />
+          <ScalarProperty Name="GestSt" ColumnName="GestSt" />
+          <ScalarProperty Name="GestVente" ColumnName="GestVente" />
+          <ScalarProperty Name="GestDup" ColumnName="GestDup" />
+          <ScalarProperty Name="GestStat" ColumnName="GestStat" />
+          <ScalarProperty Name="GestRapp" ColumnName="GestRapp" />
+          <ScalarProperty Name="GestCompta" ColumnName="GestCompta" />
+          <ScalarProperty Name="GestPub" ColumnName="GestPub" />
+          <ScalarProperty Name="GestAdmin" ColumnName="GestAdmin" />
+          <ScalarProperty Name="GestFr" ColumnName="GestFr" />
+          <ScalarProperty Name="GestDon" ColumnName="GestDon" />
+          <ScalarProperty Name="GestFourniture" ColumnName="GestFourniture" />
+          <ScalarProperty Name="GestDevis" ColumnName="GestDevis" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="emplacement">
+      <EntityTypeMapping TypeName="NewCampusModel.emplacement">
+        <MappingFragment StoreEntitySet="emplacement">
+          <ScalarProperty Name="idemp" ColumnName="idemp" />
+          <ScalarProperty Name="empdesign" ColumnName="empdesign" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Facture">
+      <EntityTypeMapping TypeName="NewCampusModel.Facture">
+        <MappingFragment StoreEntitySet="Facture">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="NumeroFacture" ColumnName="NumeroFacture" />
+          <ScalarProperty Name="date_ajout" ColumnName="date_ajout" />
+          <ScalarProperty Name="id_clt" ColumnName="id_clt" />
+          <ScalarProperty Name="intitule" ColumnName="intitule" />
+          <ScalarProperty Name="Adresse" ColumnName="Adresse" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="L_num_bl" ColumnName="L_num_bl" />
+          <ScalarProperty Name="quittance" ColumnName="quittance" />
+          <ScalarProperty Name="datequittance" ColumnName="datequittance" />
+          <ScalarProperty Name="Titre" ColumnName="Titre" />
+          <ScalarProperty Name="Montantbrut" ColumnName="Montantbrut" />
+          <ScalarProperty Name="remise" ColumnName="remise" />
+          <ScalarProperty Name="totalremise" ColumnName="totalremise" />
+          <ScalarProperty Name="montantnet" ColumnName="montantnet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FactureDetail">
+      <EntityTypeMapping TypeName="NewCampusModel.FactureDetail">
+        <MappingFragment StoreEntitySet="FactureDetail">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nfacture" ColumnName="nfacture" />
+          <ScalarProperty Name="nligne" ColumnName="nligne" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="client" ColumnName="client" />
+          <ScalarProperty Name="article" ColumnName="article" />
+          <ScalarProperty Name="quantite" ColumnName="quantite" />
+          <ScalarProperty Name="pu" ColumnName="pu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="facturevente">
+      <EntityTypeMapping TypeName="NewCampusModel.facturevente">
+        <MappingFragment StoreEntitySet="facturevente">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="numero_fact" ColumnName="numero_fact" />
+          <ScalarProperty Name="date_ajout" ColumnName="date_ajout" />
+          <ScalarProperty Name="id_clt" ColumnName="id_clt" />
+          <ScalarProperty Name="client" ColumnName="client" />
+          <ScalarProperty Name="montant_hr" ColumnName="montant_hr" />
+          <ScalarProperty Name="remise" ColumnName="remise" />
+          <ScalarProperty Name="montant" ColumnName="montant" />
+          <ScalarProperty Name="retenusource" ColumnName="retenusource" />
+          <ScalarProperty Name="id_bl" ColumnName="id_bl" />
+          <ScalarProperty Name="L_num_bl" ColumnName="L_num_bl" />
+          <ScalarProperty Name="RefCmd" ColumnName="RefCmd" />
+          <ScalarProperty Name="etat" ColumnName="etat" />
+          <ScalarProperty Name="reste" ColumnName="reste" />
+          <ScalarProperty Name="quittance" ColumnName="quittance" />
+          <ScalarProperty Name="datequittance" ColumnName="datequittance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="famille">
+      <EntityTypeMapping TypeName="NewCampusModel.famille">
+        <MappingFragment StoreEntitySet="famille">
+          <ScalarProperty Name="idfamille" ColumnName="idfamille" />
+          <ScalarProperty Name="familledesign" ColumnName="familledesign" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ficheauteur">
+      <EntityTypeMapping TypeName="NewCampusModel.ficheauteur">
+        <MappingFragment StoreEntitySet="ficheauteur">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="prenom" ColumnName="prenom" />
+          <ScalarProperty Name="telephone" ColumnName="telephone" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="presentation" ColumnName="presentation" />
+          <ScalarProperty Name="fichepresentation" ColumnName="fichepresentation" />
+          <ScalarProperty Name="extpr" ColumnName="extpr" />
+          <ScalarProperty Name="biographie" ColumnName="biographie" />
+          <ScalarProperty Name="resumebiographie" ColumnName="resumebiographie" />
+          <ScalarProperty Name="extbiog" ColumnName="extbiog" />
+          <ScalarProperty Name="photoauteur" ColumnName="photoauteur" />
+          <ScalarProperty Name="photo" ColumnName="photo" />
+          <ScalarProperty Name="extphoto" ColumnName="extphoto" />
+          <ScalarProperty Name="couverture" ColumnName="couverture" />
+          <ScalarProperty Name="propositioncouvert" ColumnName="propositioncouvert" />
+          <ScalarProperty Name="extcouv" ColumnName="extcouv" />
+          <ScalarProperty Name="ndossier" ColumnName="ndossier" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="fichesuivi">
+      <EntityTypeMapping TypeName="NewCampusModel.fichesuivi">
+        <MappingFragment StoreEntitySet="fichesuivi">
+          <ScalarProperty Name="idfiche" ColumnName="idfiche" />
+          <ScalarProperty Name="ndossier" ColumnName="ndossier" />
+          <ScalarProperty Name="idagent" ColumnName="idagent" />
+          <ScalarProperty Name="agent" ColumnName="agent" />
+          <ScalarProperty Name="datereception" ColumnName="datereception" />
+          <ScalarProperty Name="observation" ColumnName="observation" />
+          <ScalarProperty Name="datemaj" ColumnName="datemaj" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="fournisseur">
+      <EntityTypeMapping TypeName="NewCampusModel.fournisseur">
+        <MappingFragment StoreEntitySet="fournisseur">
+          <ScalarProperty Name="codefr" ColumnName="codefr" />
+          <ScalarProperty Name="numerofr" ColumnName="numerofr" />
+          <ScalarProperty Name="raisonfr" ColumnName="raisonfr" />
+          <ScalarProperty Name="responsable" ColumnName="responsable" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="adress" ColumnName="adress" />
+          <ScalarProperty Name="ville" ColumnName="ville" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="web" ColumnName="web" />
+          <ScalarProperty Name="codepostal" ColumnName="codepostal" />
+          <ScalarProperty Name="image" ColumnName="image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Fourniture">
+      <EntityTypeMapping TypeName="NewCampusModel.Fourniture">
+        <MappingFragment StoreEntitySet="Fourniture">
+          <ScalarProperty Name="idfour" ColumnName="idfour" />
+          <ScalarProperty Name="codefour" ColumnName="codefour" />
+          <ScalarProperty Name="famille" ColumnName="famille" />
+          <ScalarProperty Name="idfamille" ColumnName="idfamille" />
+          <ScalarProperty Name="sousfamille" ColumnName="sousfamille" />
+          <ScalarProperty Name="idsousfamille" ColumnName="idsousfamille" />
+          <ScalarProperty Name="designation" ColumnName="designation" />
+          <ScalarProperty Name="fournisseur" ColumnName="fournisseur" />
+          <ScalarProperty Name="quantitenstock" ColumnName="quantitenstock" />
+          <ScalarProperty Name="prixAchat" ColumnName="prixAchat" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="seuil" ColumnName="seuil" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ligne_avoir">
+      <EntityTypeMapping TypeName="NewCampusModel.ligne_avoir">
+        <MappingFragment StoreEntitySet="ligne_avoir">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_avoir" ColumnName="id_avoir" />
+          <ScalarProperty Name="code_art" ColumnName="code_art" />
+          <ScalarProperty Name="designation" ColumnName="designation" />
+          <ScalarProperty Name="quantite" ColumnName="quantite" />
+          <ScalarProperty Name="puv" ColumnName="puv" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="remise" ColumnName="remise" />
+          <ScalarProperty Name="prixremise" ColumnName="prixremise" />
+          <ScalarProperty Name="idauteur" ColumnName="idauteur" />
+          <ScalarProperty Name="etatpaiement" ColumnName="etatpaiement" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ligne_bc">
+      <EntityTypeMapping TypeName="NewCampusModel.ligne_bc">
+        <MappingFragment StoreEntitySet="ligne_bc">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_bc" ColumnName="id_bc" />
+          <ScalarProperty Name="code_art" ColumnName="code_art" />
+          <ScalarProperty Name="designation_article" ColumnName="designation_article" />
+          <ScalarProperty Name="quantite_article" ColumnName="quantite_article" />
+          <ScalarProperty Name="puv" ColumnName="puv" />
+          <ScalarProperty Name="totvente" ColumnName="totvente" />
+          <ScalarProperty Name="remise" ColumnName="remise" />
+          <ScalarProperty Name="prixremis" ColumnName="prixremis" />
+          <ScalarProperty Name="idauteur" ColumnName="idauteur" />
+          <ScalarProperty Name="qtitservi" ColumnName="qtitservi" />
+          <ScalarProperty Name="qtitrest" ColumnName="qtitrest" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ligne_bl">
+      <EntityTypeMapping TypeName="NewCampusModel.ligne_bl">
+        <MappingFragment StoreEntitySet="ligne_bl">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_bl" ColumnName="id_bl" />
+          <ScalarProperty Name="code_art" ColumnName="code_art" />
+          <ScalarProperty Name="designation_article" ColumnName="designation_article" />
+          <ScalarProperty Name="quantite_article" ColumnName="quantite_article" />
+          <ScalarProperty Name="puv" ColumnName="puv" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="remise" ColumnName="remise" />
+          <ScalarProperty Name="prixremise" ColumnName="prixremise" />
+          <ScalarProperty Name="idauteur" ColumnName="idauteur" />
+          <ScalarProperty Name="etatpaiement" ColumnName="etatpaiement" />
+          <ScalarProperty Name="idcmd" ColumnName="idcmd" />
+          <ScalarProperty Name="numligne" ColumnName="numligne" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="client" ColumnName="client" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ligne_bs">
+      <EntityTypeMapping TypeName="NewCampusModel.ligne_bs">
+        <MappingFragment StoreEntitySet="ligne_bs">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_bs" ColumnName="id_bs" />
+          <ScalarProperty Name="code_art" ColumnName="code_art" />
+          <ScalarProperty Name="designation_article" ColumnName="designation_article" />
+          <ScalarProperty Name="quantite_article" ColumnName="quantite_article" />
+          <ScalarProperty Name="puv" ColumnName="puv" />
+          <ScalarProperty Name="remise" ColumnName="remise" />
+          <ScalarProperty Name="prixRemise" ColumnName="prixRemise" />
+          <ScalarProperty Name="total" ColumnName="total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ligne_devis">
+      <EntityTypeMapping TypeName="NewCampusModel.ligne_devis">
+        <MappingFragment StoreEntitySet="ligne_devis">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_devis" ColumnName="id_devis" />
+          <ScalarProperty Name="code_art" ColumnName="code_art" />
+          <ScalarProperty Name="designation_article" ColumnName="designation_article" />
+          <ScalarProperty Name="quantite_article" ColumnName="quantite_article" />
+          <ScalarProperty Name="puv" ColumnName="puv" />
+          <ScalarProperty Name="remise" ColumnName="remise" />
+          <ScalarProperty Name="totalsansremise" ColumnName="totalsansremise" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="idauteur" ColumnName="idauteur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Livre">
+      <EntityTypeMapping TypeName="NewCampusModel.Livre">
+        <MappingFragment StoreEntitySet="Livre">
+          <ScalarProperty Name="Rang" ColumnName="Rang" />
+          <ScalarProperty Name="codeart" ColumnName="codeart" />
+          <ScalarProperty Name="titre" ColumnName="titre" />
+          <ScalarProperty Name="dateedition" ColumnName="dateedition" />
+          <ScalarProperty Name="imprimerie" ColumnName="imprimerie" />
+          <ScalarProperty Name="auteur" ColumnName="auteur" />
+          <ScalarProperty Name="isbn" ColumnName="isbn" />
+          <ScalarProperty Name="codeabarre" ColumnName="codeabarre" />
+          <ScalarProperty Name="quantitenstock" ColumnName="quantitenstock" />
+          <ScalarProperty Name="prixachat" ColumnName="prixachat" />
+          <ScalarProperty Name="pvpublic" ColumnName="pvpublic" />
+          <ScalarProperty Name="pvetudiant" ColumnName="pvetudiant" />
+          <ScalarProperty Name="pvfoire" ColumnName="pvfoire" />
+          <ScalarProperty Name="pvdepositaire" ColumnName="pvdepositaire" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="emplacement" ColumnName="emplacement" />
+          <ScalarProperty Name="famille" ColumnName="famille" />
+          <ScalarProperty Name="qtitreelle" ColumnName="qtitreelle" />
+          <ScalarProperty Name="stockalert" ColumnName="stockalert" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Piece_bonret">
+      <EntityTypeMapping TypeName="NewCampusModel.Piece_bonret">
+        <MappingFragment StoreEntitySet="Piece_bonret">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="Codecumul" ColumnName="Codecumul" />
+          <ScalarProperty Name="Codearticle" ColumnName="Codearticle" />
+          <ScalarProperty Name="nomart" ColumnName="nomart" />
+          <ScalarProperty Name="quantite" ColumnName="quantite" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Piece_cumulent">
+      <EntityTypeMapping TypeName="NewCampusModel.Piece_cumulent">
+        <MappingFragment StoreEntitySet="Piece_cumulent">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="Codecumul" ColumnName="Codecumul" />
+          <ScalarProperty Name="Codearticle" ColumnName="Codearticle" />
+          <ScalarProperty Name="nomart" ColumnName="nomart" />
+          <ScalarProperty Name="quantite" ColumnName="quantite" />
+          <ScalarProperty Name="pua" ColumnName="pua" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Piece_cumulsortie">
+      <EntityTypeMapping TypeName="NewCampusModel.Piece_cumulsortie">
+        <MappingFragment StoreEntitySet="Piece_cumulsortie">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="Codecumul" ColumnName="Codecumul" />
+          <ScalarProperty Name="Codearticle" ColumnName="Codearticle" />
+          <ScalarProperty Name="nomart" ColumnName="nomart" />
+          <ScalarProperty Name="quantite" ColumnName="quantite" />
+          <ScalarProperty Name="puv" ColumnName="puv" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="piece_fact">
+      <EntityTypeMapping TypeName="NewCampusModel.piece_fact">
+        <MappingFragment StoreEntitySet="piece_fact">
+          <ScalarProperty Name="id_piece" ColumnName="id_piece" />
+          <ScalarProperty Name="code_piece_u" ColumnName="code_piece_u" />
+          <ScalarProperty Name="libelle_piece_u" ColumnName="libelle_piece_u" />
+          <ScalarProperty Name="quantite_piece_u" ColumnName="quantite_piece_u" />
+          <ScalarProperty Name="id_fact" ColumnName="id_fact" />
+          <ScalarProperty Name="puv" ColumnName="puv" />
+          <ScalarProperty Name="remise" ColumnName="remise" />
+          <ScalarProperty Name="pv" ColumnName="pv" />
+          <ScalarProperty Name="idauteur" ColumnName="idauteur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Quittance">
+      <EntityTypeMapping TypeName="NewCampusModel.Quittance">
+        <MappingFragment StoreEntitySet="Quittance">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Nquiitance" ColumnName="Nquiitance" />
+          <ScalarProperty Name="datequittance" ColumnName="datequittance" />
+          <ScalarProperty Name="nfact" ColumnName="nfact" />
+          <ScalarProperty Name="idclient" ColumnName="idclient" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="remise" ColumnName="remise" />
+          <ScalarProperty Name="netapayer" ColumnName="netapayer" />
+          <ScalarProperty Name="mode" ColumnName="mode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reglement">
+      <EntityTypeMapping TypeName="NewCampusModel.Reglement">
+        <MappingFragment StoreEntitySet="Reglement">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="nfacture" ColumnName="nfacture" />
+          <ScalarProperty Name="idclient" ColumnName="idclient" />
+          <ScalarProperty Name="montant" ColumnName="montant" />
+          <ScalarProperty Name="remise" ColumnName="remise" />
+          <ScalarProperty Name="netapayer" ColumnName="netapayer" />
+          <ScalarProperty Name="typereglement" ColumnName="typereglement" />
+          <ScalarProperty Name="banque" ColumnName="banque" />
+          <ScalarProperty Name="RIB" ColumnName="RIB" />
+          <ScalarProperty Name="ndoc" ColumnName="ndoc" />
+          <ScalarProperty Name="echeance" ColumnName="echeance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="reservation">
+      <EntityTypeMapping TypeName="NewCampusModel.reservation">
+        <MappingFragment StoreEntitySet="reservation">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ncmd" ColumnName="ncmd" />
+          <ScalarProperty Name="article" ColumnName="article" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="quantit" ColumnName="quantit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="societe">
+      <EntityTypeMapping TypeName="NewCampusModel.societe">
+        <MappingFragment StoreEntitySet="societe">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="rsoc" ColumnName="rsoc" />
+          <ScalarProperty Name="adresse" ColumnName="adresse" />
+          <ScalarProperty Name="codpost" ColumnName="codpost" />
+          <ScalarProperty Name="ville" ColumnName="ville" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="siteweb" ColumnName="siteweb" />
+          <ScalarProperty Name="logo" ColumnName="logo" />
+          <ScalarProperty Name="assujetitva" ColumnName="assujetitva" />
+          <ScalarProperty Name="numtva" ColumnName="numtva" />
+          <ScalarProperty Name="activite" ColumnName="activite" />
+          <ScalarProperty Name="nomresp" ColumnName="nomresp" />
+          <ScalarProperty Name="formejuridique" ColumnName="formejuridique" />
+          <ScalarProperty Name="matfisc" ColumnName="matfisc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sousfamille">
+      <EntityTypeMapping TypeName="NewCampusModel.sousfamille">
+        <MappingFragment StoreEntitySet="sousfamille">
+          <ScalarProperty Name="idsousfamille" ColumnName="idsousfamille" />
+          <ScalarProperty Name="familleid" ColumnName="familleid" />
+          <ScalarProperty Name="familledesign" ColumnName="familledesign" />
+          <ScalarProperty Name="sousfamilledesign" ColumnName="sousfamilledesign" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="specialite">
+      <EntityTypeMapping TypeName="NewCampusModel.specialite">
+        <MappingFragment StoreEntitySet="specialite">
+          <ScalarProperty Name="idsp" ColumnName="idsp" />
+          <ScalarProperty Name="designation" ColumnName="designation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SelectArticle" FunctionName="NewCampusModel.Store.SelectArticle">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="NewCampusModel.SelectArticle_Result">
+          <ScalarProperty Name="codeart" ColumnName="codeart" />
+          <ScalarProperty Name="titre" ColumnName="titre" />
+          <ScalarProperty Name="isbn" ColumnName="isbn" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="spFindlistartstartby" FunctionName="NewCampusModel.Store.spFindlistartstartby" />
+    <FunctionImportMapping FunctionImportName="spRapportArt" FunctionName="NewCampusModel.Store.spRapportArt" />
+    <FunctionImportMapping FunctionImportName="getartinfo" FunctionName="NewCampusModel.Store.getartinfo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="NewCampusModel.getartinfo_Result">
+          <ScalarProperty Name="codeart" ColumnName="codeart" />
+          <ScalarProperty Name="titre" ColumnName="titre" />
+          <ScalarProperty Name="quantitenstock" ColumnName="quantitenstock" />
+          <ScalarProperty Name="qtitreelle" ColumnName="qtitreelle" />
+          <ScalarProperty Name="stockalert" ColumnName="stockalert" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="findArtbref" FunctionName="NewCampusModel.Store.findArtbref">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="NewCampusModel.findArtbref_Result">
+          <ScalarProperty Name="Rang" ColumnName="Rang" />
+          <ScalarProperty Name="codeart" ColumnName="codeart" />
+          <ScalarProperty Name="titre" ColumnName="titre" />
+          <ScalarProperty Name="imprimerie" ColumnName="imprimerie" />
+          <ScalarProperty Name="auteur" ColumnName="auteur" />
+          <ScalarProperty Name="isbn" ColumnName="isbn" />
+          <ScalarProperty Name="codeabarre" ColumnName="codeabarre" />
+          <ScalarProperty Name="quantitenstock" ColumnName="quantitenstock" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="InfoLivre">
+      <EntityTypeMapping TypeName="NewCampusModel.InfoLivre">
+        <MappingFragment StoreEntitySet="InfoLivre">
+          <ScalarProperty Name="quantitenstock" ColumnName="quantitenstock" />
+          <ScalarProperty Name="codeabarre" ColumnName="codeabarre" />
+          <ScalarProperty Name="isbn" ColumnName="isbn" />
+          <ScalarProperty Name="auteur" ColumnName="auteur" />
+          <ScalarProperty Name="imprimerie" ColumnName="imprimerie" />
+          <ScalarProperty Name="titre" ColumnName="titre" />
+          <ScalarProperty Name="codeart" ColumnName="codeart" />
+          <ScalarProperty Name="Rang" ColumnName="Rang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,36 @@
+E:\dossier click2web last\All final\newlooksmartclick\BLL\bin\Debug\BLL.dll.config
+E:\dossier click2web last\All final\newlooksmartclick\BLL\bin\Debug\BLL.dll
+E:\dossier click2web last\All final\newlooksmartclick\BLL\bin\Debug\BLL.pdb
+E:\dossier click2web last\All final\newlooksmartclick\BLL\bin\Debug\DAL.dll
+E:\dossier click2web last\All final\newlooksmartclick\BLL\bin\Debug\EntityFramework.dll
+E:\dossier click2web last\All final\newlooksmartclick\BLL\bin\Debug\EntityFramework.SqlServer.dll
+E:\dossier click2web last\All final\newlooksmartclick\BLL\bin\Debug\DAL.pdb
+E:\dossier click2web last\All final\newlooksmartclick\BLL\bin\Debug\EntityFramework.xml
+E:\dossier click2web last\All final\newlooksmartclick\BLL\bin\Debug\EntityFramework.SqlServer.xml
+E:\dossier click2web last\All final\newlooksmartclick\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\dossier click2web last\All final\newlooksmartclick\BLL\obj\Debug\BLL.dll
+E:\dossier click2web last\All final\newlooksmartclick\BLL\obj\Debug\BLL.pdb
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\BLL\bin\Debug\BLL.dll.config
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\BLL\bin\Debug\BLL.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\BLL\bin\Debug\BLL.pdb
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\BLL\bin\Debug\DAL.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\BLL\bin\Debug\EntityFramework.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\BLL\bin\Debug\DAL.pdb
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\BLL\bin\Debug\EntityFramework.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\BLL\obj\Debug\BLL.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\BLL\obj\Debug\BLL.pdb
+D:\bureau click\copie manouba\newlooksmartclick\BLL\bin\Debug\BLL.dll.config
+D:\bureau click\copie manouba\newlooksmartclick\BLL\bin\Debug\BLL.dll
+D:\bureau click\copie manouba\newlooksmartclick\BLL\bin\Debug\BLL.pdb
+D:\bureau click\copie manouba\newlooksmartclick\BLL\bin\Debug\DAL.dll
+D:\bureau click\copie manouba\newlooksmartclick\BLL\bin\Debug\EntityFramework.dll
+D:\bureau click\copie manouba\newlooksmartclick\BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\bureau click\copie manouba\newlooksmartclick\BLL\bin\Debug\DAL.pdb
+D:\bureau click\copie manouba\newlooksmartclick\BLL\bin\Debug\EntityFramework.xml
+D:\bureau click\copie manouba\newlooksmartclick\BLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\bureau click\copie manouba\newlooksmartclick\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\bureau click\copie manouba\newlooksmartclick\BLL\obj\Debug\BLL.dll
+D:\bureau click\copie manouba\newlooksmartclick\BLL\obj\Debug\BLL.pdb

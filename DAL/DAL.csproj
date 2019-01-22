@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DD63D799-3BD0-4B27-BD65-066F15649021}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="agent.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="auteur.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Avoir.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Banque.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BonRetour.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="bon_commande.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="bon_livraison.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="bon_sortie.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="campus.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>campus.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="campus.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="campus.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>campus.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="client.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CumulEnt.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Cumulsortie.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="devis.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Dossierpublication.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Droit.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="emplacement.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Facture.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FactureDetail.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="facturevente.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="famille.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ficheauteur.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="fichesuivi.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="findArtbref_Result.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="fournisseur.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Fourniture.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="getartinfo_Result.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InfoLivre.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ligne_avoir.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ligne_bc.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ligne_bl.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ligne_bs.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ligne_devis.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Livre.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Piece_bonret.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Piece_cumulent.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Piece_cumulsortie.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="piece_fact.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Quittance.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Reglement.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="reservation.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SelectArticle_Result.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="societe.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sousfamille.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="specialite.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spFindlistartstartby_Result.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spRapportArt_Result.cs">
+      <DependentUpon>campus.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EntityDeploy Include="campus.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>campus.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="campus.edmx.diagram">
+      <DependentUpon>campus.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="campus.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>campus.edmx</DependentUpon>
+      <LastGenOutput>campus.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="campus.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>campus.edmx</DependentUpon>
+      <LastGenOutput>campus.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

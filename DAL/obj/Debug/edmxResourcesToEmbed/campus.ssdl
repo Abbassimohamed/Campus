@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NewCampusModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="agent">
+    <Key>
+      <PropertyRef Name="idagent" />
+    </Key>
+    <Property Name="idagent" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="cin" Type="varchar" MaxLength="50" />
+    <Property Name="nom" Type="nvarchar" MaxLength="100" />
+    <Property Name="prenom" Type="nvarchar" MaxLength="100" />
+    <Property Name="numtel" Type="varchar" MaxLength="50" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="specialite" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="auteur">
+    <Key>
+      <PropertyRef Name="codeauteur" />
+    </Key>
+    <Property Name="codeauteur" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="numeroaut" Type="int" />
+    <Property Name="nom" Type="nvarchar" MaxLength="50" />
+    <Property Name="prenom" Type="nvarchar" MaxLength="50" />
+    <Property Name="tel" Type="nvarchar" MaxLength="50" />
+    <Property Name="adr" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="institution" Type="nvarchar" MaxLength="50" />
+    <Property Name="specialite" Type="nvarchar" MaxLength="50" />
+    <Property Name="ville" Type="nvarchar" MaxLength="50" />
+    <Property Name="codepostal" Type="nvarchar" MaxLength="50" />
+    <Property Name="web" Type="nvarchar" MaxLength="50" />
+    <Property Name="image" Type="image" />
+    <Property Name="cin" Type="varchar" MaxLength="50" />
+    <Property Name="fax" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Avoir">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="numeroavoir" Type="int" />
+    <Property Name="date" Type="date" />
+    <Property Name="idclt" Type="nvarchar" MaxLength="50" />
+    <Property Name="client" Type="nvarchar" MaxLength="50" />
+    <Property Name="montant" Type="float" />
+    <Property Name="remise" Type="float" />
+    <Property Name="montanttotal" Type="float" />
+    <Property Name="Comment" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="Banque">
+    <Key>
+      <PropertyRef Name="idbanque" />
+    </Key>
+    <Property Name="idbanque" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombanque" Type="nvarchar" MaxLength="50" />
+    <Property Name="rib" Type="nvarchar" MaxLength="50" />
+    <Property Name="soldeinitial" Type="float" />
+  </EntityType>
+  <EntityType Name="bon_commande">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="numero_bc" Type="int" />
+    <Property Name="date_ajout" Type="datetime" />
+    <Property Name="etat" Type="nvarchar" MaxLength="50" />
+    <Property Name="montant" Type="float" />
+    <Property Name="remise" Type="float" />
+    <Property Name="prixremise" Type="float" />
+    <Property Name="id_clt" Type="nvarchar" MaxLength="50" />
+    <Property Name="client" Type="nvarchar" MaxLength="50" />
+    <Property Name="numerodevis" Type="int" />
+    <Property Name="comment" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="bon_livraison">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="numero_bl" Type="int" />
+    <Property Name="date_ajout" Type="nvarchar(max)" />
+    <Property Name="etat" Type="nvarchar" MaxLength="50" />
+    <Property Name="montant_BL" Type="float" />
+    <Property Name="remise" Type="float" />
+    <Property Name="prixremise" Type="float" />
+    <Property Name="id_clt" Type="nvarchar" MaxLength="50" />
+    <Property Name="client" Type="nvarchar(max)" />
+    <Property Name="id_fact" Type="nvarchar" MaxLength="50" />
+    <Property Name="id_commande" Type="nvarchar" MaxLength="50" />
+    <Property Name="comment" Type="nvarchar(max)" />
+    <Property Name="adresse" Type="nvarchar(max)" />
+    <Property Name="tel" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="bon_sortie">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="numero_bs" Type="int" />
+    <Property Name="date_ajout" Type="date" />
+    <Property Name="etat" Type="nvarchar" MaxLength="50" />
+    <Property Name="montant_BS" Type="float" />
+    <Property Name="id_clt" Type="nvarchar" MaxLength="50" />
+    <Property Name="client" Type="nvarchar" MaxLength="50" />
+    <Property Name="id_fact" Type="nvarchar" MaxLength="50" />
+    <Property Name="id_commande" Type="nvarchar" MaxLength="50" />
+    <Property Name="nbcmd" Type="nvarchar" MaxLength="50" />
+    <Property Name="mode_livraison" Type="nvarchar" MaxLength="50" />
+    <Property Name="moyen_livraison" Type="nvarchar" MaxLength="50" />
+    <Property Name="lieu_livraison" Type="nvarchar" MaxLength="50" />
+    <Property Name="remise" Type="float" />
+    <Property Name="totalSansRemise" Type="float" />
+    <Property Name="L_num_bl" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="BonRetour">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="date" Type="date" />
+    <Property Name="idfr" Type="int" />
+    <Property Name="nomfr" Type="varchar" MaxLength="50" />
+    <Property Name="numerocumul" Type="int" />
+    <Property Name="type" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="client">
+    <Key>
+      <PropertyRef Name="codeclient" />
+    </Key>
+    <Property Name="codeclient" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="numerocl" Type="int" />
+    <Property Name="raisonsoc" Type="nvarchar(max)" />
+    <Property Name="resp" Type="nvarchar(max)" />
+    <Property Name="qualite" Type="nvarchar" MaxLength="50" />
+    <Property Name="tel" Type="nvarchar(max)" />
+    <Property Name="mobile" Type="nvarchar" MaxLength="50" />
+    <Property Name="adresse" Type="nvarchar(max)" />
+    <Property Name="codepostal" Type="int" />
+    <Property Name="ville" Type="nvarchar" MaxLength="50" />
+    <Property Name="web" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="fax" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="CumulEnt">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="date" Type="date" />
+    <Property Name="idfr" Type="int" />
+    <Property Name="nomfr" Type="nvarchar" MaxLength="50" />
+    <Property Name="numerocumul" Type="int" />
+    <Property Name="type" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Cumulsortie">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="date" Type="date" />
+    <Property Name="idfr" Type="int" />
+    <Property Name="nomfr" Type="nvarchar" MaxLength="50" />
+    <Property Name="numerocumul" Type="int" />
+    <Property Name="type" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="devis">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="numero_devis" Type="int" />
+    <Property Name="date_ajout" Type="date" />
+    <Property Name="id_clt" Type="nvarchar" MaxLength="50" />
+    <Property Name="client" Type="nvarchar" MaxLength="50" />
+    <Property Name="totalSansRemise" Type="float" />
+    <Property Name="remise" Type="float" />
+    <Property Name="montant_devis" Type="float" />
+    <Property Name="etat" Type="nvarchar" MaxLength="50" />
+    <Property Name="comment" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="Dossierpublication">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ndossier" Type="nvarchar" MaxLength="50" />
+    <Property Name="titre" Type="nvarchar" MaxLength="200" />
+    <Property Name="discipline" Type="nvarchar" MaxLength="200" />
+    <Property Name="idauteur" Type="int" />
+    <Property Name="auteur" Type="nvarchar" MaxLength="200" />
+    <Property Name="datedepo" Type="date" />
+    <Property Name="support" Type="nvarchar" MaxLength="50" />
+    <Property Name="nbpage" Type="int" />
+    <Property Name="format" Type="varchar" MaxLength="50" />
+    <Property Name="formatpapierinter" Type="nvarchar" MaxLength="50" />
+    <Property Name="nbpagenormal" Type="int" />
+    <Property Name="nbpagecolor" Type="int" />
+    <Property Name="couverture" Type="nvarchar" MaxLength="50" />
+    <Property Name="finition" Type="nvarchar" MaxLength="50" />
+    <Property Name="nboncommande" Type="int" />
+    <Property Name="datecommande" Type="date" />
+    <Property Name="idimp" Type="int" />
+    <Property Name="imp" Type="nvarchar" MaxLength="150" />
+    <Property Name="tirage" Type="nvarchar" MaxLength="150" />
+    <Property Name="reedition" Type="bit" />
+    <Property Name="nedition" Type="int" />
+    <Property Name="coedition" Type="bit" />
+    <Property Name="coediteur" Type="nvarchar" MaxLength="100" />
+    <Property Name="contratcoedition" Type="bit" />
+    <Property Name="bcmdcoedit" Type="bit" />
+    <Property Name="isbn" Type="nvarchar" MaxLength="50" />
+    <Property Name="prix" Type="float" />
+  </EntityType>
+  <EntityType Name="Droit">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nom" Type="nvarchar" MaxLength="50" />
+    <Property Name="prenom" Type="nvarchar" MaxLength="50" />
+    <Property Name="gsm" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="fonction" Type="nvarchar" MaxLength="50" />
+    <Property Name="utilisabilite" Type="nvarchar" MaxLength="50" />
+    <Property Name="login" Type="nvarchar" MaxLength="50" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" />
+    <Property Name="GestClt" Type="nvarchar" MaxLength="6" />
+    <Property Name="GestAut" Type="nvarchar" MaxLength="6" />
+    <Property Name="GestSt" Type="nvarchar" MaxLength="6" />
+    <Property Name="GestVente" Type="nvarchar" MaxLength="6" />
+    <Property Name="GestDup" Type="nvarchar" MaxLength="6" />
+    <Property Name="GestStat" Type="nvarchar" MaxLength="6" />
+    <Property Name="GestRapp" Type="nvarchar" MaxLength="6" />
+    <Property Name="GestCompta" Type="nvarchar" MaxLength="6" />
+    <Property Name="GestPub" Type="nvarchar" MaxLength="6" />
+    <Property Name="GestAdmin" Type="nvarchar" MaxLength="6" />
+    <Property Name="GestFr" Type="nvarchar" MaxLength="6" />
+    <Property Name="GestDon" Type="nvarchar" MaxLength="6" />
+    <Property Name="GestFourniture" Type="nvarchar" MaxLength="6" />
+    <Property Name="GestDevis" Type="nvarchar" MaxLength="6" />
+  </EntityType>
+  <EntityType Name="emplacement">
+    <Key>
+      <PropertyRef Name="idemp" />
+    </Key>
+    <Property Name="idemp" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="empdesign" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Facture">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NumeroFacture" Type="int" />
+    <Property Name="date_ajout" Type="nvarchar(max)" />
+    <Property Name="id_clt" Type="int" />
+    <Property Name="intitule" Type="nvarchar(max)" />
+    <Property Name="Adresse" Type="nvarchar(max)" />
+    <Property Name="Telephone" Type="nvarchar(max)" />
+    <Property Name="L_num_bl" Type="nvarchar(max)" />
+    <Property Name="quittance" Type="nvarchar(max)" />
+    <Property Name="datequittance" Type="nvarchar(max)" />
+    <Property Name="Titre" Type="nvarchar(max)" />
+    <Property Name="Montantbrut" Type="float" />
+    <Property Name="remise" Type="float" />
+    <Property Name="totalremise" Type="float" />
+    <Property Name="montantnet" Type="float" />
+  </EntityType>
+  <EntityType Name="FactureDetail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nfacture" Type="int" />
+    <Property Name="nligne" Type="int" />
+    <Property Name="date" Type="nvarchar(max)" />
+    <Property Name="client" Type="int" />
+    <Property Name="article" Type="nvarchar(max)" />
+    <Property Name="quantite" Type="float" />
+    <Property Name="pu" Type="float" />
+  </EntityType>
+  <EntityType Name="facturevente">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="numero_fact" Type="int" />
+    <Property Name="date_ajout" Type="date" />
+    <Property Name="id_clt" Type="nvarchar" MaxLength="50" />
+    <Property Name="client" Type="nvarchar" MaxLength="50" />
+    <Property Name="montant_hr" Type="float" />
+    <Property Name="remise" Type="float" />
+    <Property Name="montant" Type="float" />
+    <Property Name="retenusource" Type="float" />
+    <Property Name="id_bl" Type="int" />
+    <Property Name="L_num_bl" Type="nvarchar" MaxLength="50" />
+    <Property Name="RefCmd" Type="nvarchar" MaxLength="50" />
+    <Property Name="etat" Type="nvarchar" MaxLength="50" />
+    <Property Name="reste" Type="float" />
+    <Property Name="quittance" Type="nvarchar" MaxLength="50" />
+    <Property Name="datequittance" Type="date" />
+  </EntityType>
+  <EntityType Name="famille">
+    <Key>
+      <PropertyRef Name="idfamille" />
+    </Key>
+    <Property Name="idfamille" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="familledesign" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ficheauteur">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nom" Type="nvarchar" MaxLength="50" />
+    <Property Name="prenom" Type="nvarchar" MaxLength="50" />
+    <Property Name="telephone" Type="nvarchar" MaxLength="50" />
+    <Property Name="fax" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="presentation" Type="bit" />
+    <Property Name="fichepresentation" Type="image" />
+    <Property Name="extpr" Type="image" />
+    <Property Name="biographie" Type="bit" />
+    <Property Name="resumebiographie" Type="image" />
+    <Property Name="extbiog" Type="image" />
+    <Property Name="photoauteur" Type="bit" />
+    <Property Name="photo" Type="image" />
+    <Property Name="extphoto" Type="image" />
+    <Property Name="couverture" Type="bit" />
+    <Property Name="propositioncouvert" Type="image" />
+    <Property Name="extcouv" Type="image" />
+    <Property Name="ndossier" Type="int" />
+  </EntityType>
+  <EntityType Name="fichesuivi">
+    <Key>
+      <PropertyRef Name="idfiche" />
+    </Key>
+    <Property Name="idfiche" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ndossier" Type="nvarchar" MaxLength="50" />
+    <Property Name="idagent" Type="int" />
+    <Property Name="agent" Type="nvarchar" MaxLength="100" />
+    <Property Name="datereception" Type="date" />
+    <Property Name="observation" Type="nvarchar(max)" />
+    <Property Name="datemaj" Type="date" />
+  </EntityType>
+  <EntityType Name="fournisseur">
+    <Key>
+      <PropertyRef Name="codefr" />
+    </Key>
+    <Property Name="codefr" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="numerofr" Type="int" />
+    <Property Name="raisonfr" Type="nvarchar(max)" />
+    <Property Name="responsable" Type="nvarchar" MaxLength="50" />
+    <Property Name="mobile" Type="nvarchar" MaxLength="50" />
+    <Property Name="tel" Type="nvarchar(max)" />
+    <Property Name="adress" Type="nvarchar(max)" />
+    <Property Name="ville" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="web" Type="nvarchar" MaxLength="50" />
+    <Property Name="codepostal" Type="nvarchar" MaxLength="50" />
+    <Property Name="image" Type="image" />
+  </EntityType>
+  <EntityType Name="Fourniture">
+    <Key>
+      <PropertyRef Name="idfour" />
+    </Key>
+    <Property Name="idfour" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="codefour" Type="nvarchar" MaxLength="50" />
+    <Property Name="famille" Type="nvarchar" MaxLength="50" />
+    <Property Name="idfamille" Type="int" />
+    <Property Name="sousfamille" Type="nvarchar" MaxLength="50" />
+    <Property Name="idsousfamille" Type="int" />
+    <Property Name="designation" Type="nvarchar" MaxLength="150" />
+    <Property Name="fournisseur" Type="nvarchar" MaxLength="100" />
+    <Property Name="quantitenstock" Type="float" />
+    <Property Name="prixAchat" Type="float" />
+    <Property Name="image" Type="image" />
+    <Property Name="seuil" Type="float" />
+  </EntityType>
+  <EntityType Name="ligne_avoir">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_avoir" Type="int" />
+    <Property Name="code_art" Type="nvarchar" MaxLength="50" />
+    <Property Name="designation" Type="nvarchar" MaxLength="150" />
+    <Property Name="quantite" Type="float" />
+    <Property Name="puv" Type="float" />
+    <Property Name="total" Type="float" />
+    <Property Name="remise" Type="float" />
+    <Property Name="prixremise" Type="float" />
+    <Property Name="idauteur" Type="int" />
+    <Property Name="etatpaiement" Type="nvarchar" MaxLength="50" />
+    <Property Name="comment" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="ligne_bc">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_bc" Type="int" />
+    <Property Name="code_art" Type="nvarchar" MaxLength="50" />
+    <Property Name="designation_article" Type="nvarchar" MaxLength="300" />
+    <Property Name="quantite_article" Type="float" />
+    <Property Name="puv" Type="float" />
+    <Property Name="totvente" Type="float" />
+    <Property Name="remise" Type="float" />
+    <Property Name="prixremis" Type="float" />
+    <Property Name="idauteur" Type="int" />
+    <Property Name="qtitservi" Type="float" />
+    <Property Name="qtitrest" Type="float" />
+  </EntityType>
+  <EntityType Name="ligne_bl">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_bl" Type="int" />
+    <Property Name="code_art" Type="nvarchar" MaxLength="50" />
+    <Property Name="designation_article" Type="nvarchar" MaxLength="300" />
+    <Property Name="quantite_article" Type="float" />
+    <Property Name="puv" Type="float" />
+    <Property Name="total" Type="float" />
+    <Property Name="remise" Type="float" />
+    <Property Name="prixremise" Type="float" />
+    <Property Name="idauteur" Type="int" />
+    <Property Name="etatpaiement" Type="varchar" MaxLength="50" />
+    <Property Name="idcmd" Type="int" />
+    <Property Name="numligne" Type="int" />
+    <Property Name="date" Type="nvarchar" MaxLength="50" />
+    <Property Name="client" Type="int" />
+  </EntityType>
+  <EntityType Name="ligne_bs">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_bs" Type="int" />
+    <Property Name="code_art" Type="nvarchar" MaxLength="50" />
+    <Property Name="designation_article" Type="nvarchar" MaxLength="300" />
+    <Property Name="quantite_article" Type="float" />
+    <Property Name="puv" Type="float" />
+    <Property Name="remise" Type="float" />
+    <Property Name="prixRemise" Type="float" />
+    <Property Name="total" Type="float" />
+  </EntityType>
+  <EntityType Name="ligne_devis">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_devis" Type="int" />
+    <Property Name="code_art" Type="nvarchar" MaxLength="50" />
+    <Property Name="designation_article" Type="nvarchar" MaxLength="300" />
+    <Property Name="quantite_article" Type="float" />
+    <Property Name="puv" Type="float" />
+    <Property Name="remise" Type="float" />
+    <Property Name="totalsansremise" Type="float" />
+    <Property Name="total" Type="float" />
+    <Property Name="idauteur" Type="int" />
+  </EntityType>
+  <EntityType Name="Livre">
+    <Key>
+      <PropertyRef Name="Rang" />
+    </Key>
+    <Property Name="Rang" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="codeart" Type="nvarchar" MaxLength="50" />
+    <Property Name="titre" Type="nvarchar(max)" />
+    <Property Name="dateedition" Type="varchar" MaxLength="50" />
+    <Property Name="imprimerie" Type="nvarchar(max)" />
+    <Property Name="auteur" Type="nvarchar(max)" />
+    <Property Name="isbn" Type="nvarchar" MaxLength="50" />
+    <Property Name="codeabarre" Type="nvarchar" MaxLength="50" />
+    <Property Name="quantitenstock" Type="float" />
+    <Property Name="prixachat" Type="nvarchar" MaxLength="50" />
+    <Property Name="pvpublic" Type="varchar" MaxLength="50" />
+    <Property Name="pvetudiant" Type="varchar" MaxLength="50" />
+    <Property Name="pvfoire" Type="nvarchar" MaxLength="50" />
+    <Property Name="pvdepositaire" Type="nvarchar" MaxLength="50" />
+    <Property Name="image" Type="image" />
+    <Property Name="emplacement" Type="varchar" MaxLength="50" />
+    <Property Name="famille" Type="int" />
+    <Property Name="qtitreelle" Type="float" />
+    <Property Name="stockalert" Type="float" />
+  </EntityType>
+  <EntityType Name="Piece_bonret">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Codecumul" Type="int" />
+    <Property Name="Codearticle" Type="nvarchar" MaxLength="50" />
+    <Property Name="nomart" Type="nvarchar" MaxLength="150" />
+    <Property Name="quantite" Type="float" />
+    <Property Name="date" Type="date" />
+  </EntityType>
+  <EntityType Name="Piece_cumulent">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Codecumul" Type="int" />
+    <Property Name="Codearticle" Type="nvarchar" MaxLength="50" />
+    <Property Name="nomart" Type="nvarchar" MaxLength="150" />
+    <Property Name="quantite" Type="float" />
+    <Property Name="pua" Type="float" />
+    <Property Name="date" Type="date" />
+  </EntityType>
+  <EntityType Name="Piece_cumulsortie">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Codecumul" Type="int" />
+    <Property Name="Codearticle" Type="nvarchar" MaxLength="50" />
+    <Property Name="nomart" Type="nvarchar" MaxLength="150" />
+    <Property Name="quantite" Type="float" />
+    <Property Name="puv" Type="float" />
+    <Property Name="date" Type="date" />
+  </EntityType>
+  <EntityType Name="piece_fact">
+    <Key>
+      <PropertyRef Name="id_piece" />
+    </Key>
+    <Property Name="id_piece" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="code_piece_u" Type="nvarchar" MaxLength="50" />
+    <Property Name="libelle_piece_u" Type="nvarchar" MaxLength="300" />
+    <Property Name="quantite_piece_u" Type="float" />
+    <Property Name="id_fact" Type="int" />
+    <Property Name="puv" Type="float" />
+    <Property Name="remise" Type="float" />
+    <Property Name="pv" Type="float" />
+    <Property Name="idauteur" Type="int" />
+  </EntityType>
+  <EntityType Name="Quittance">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nquiitance" Type="int" />
+    <Property Name="datequittance" Type="date" />
+    <Property Name="nfact" Type="nvarchar" MaxLength="50" />
+    <Property Name="idclient" Type="int" />
+    <Property Name="total" Type="float" />
+    <Property Name="remise" Type="float" />
+    <Property Name="netapayer" Type="float" />
+    <Property Name="mode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Reglement">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="date" Type="datetime" />
+    <Property Name="nfacture" Type="nvarchar" MaxLength="100" />
+    <Property Name="idclient" Type="int" />
+    <Property Name="montant" Type="float" />
+    <Property Name="remise" Type="float" />
+    <Property Name="netapayer" Type="float" />
+    <Property Name="typereglement" Type="nvarchar" MaxLength="50" />
+    <Property Name="banque" Type="nvarchar" MaxLength="50" />
+    <Property Name="RIB" Type="nvarchar" MaxLength="50" />
+    <Property Name="ndoc" Type="nvarchar" MaxLength="50" />
+    <Property Name="echeance" Type="date" />
+  </EntityType>
+  <EntityType Name="reservation">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ncmd" Type="int" />
+    <Property Name="article" Type="nvarchar" MaxLength="50" />
+    <Property Name="date" Type="datetime" />
+    <Property Name="quantit" Type="float" />
+  </EntityType>
+  <EntityType Name="societe">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="rsoc" Type="nvarchar" MaxLength="150" />
+    <Property Name="adresse" Type="nvarchar" MaxLength="150" />
+    <Property Name="codpost" Type="nvarchar" MaxLength="50" />
+    <Property Name="ville" Type="nvarchar" MaxLength="50" />
+    <Property Name="mobile" Type="nchar" MaxLength="20" />
+    <Property Name="tel" Type="varchar" MaxLength="20" />
+    <Property Name="fax" Type="varchar" MaxLength="20" />
+    <Property Name="mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="siteweb" Type="nvarchar" MaxLength="50" />
+    <Property Name="logo" Type="image" />
+    <Property Name="assujetitva" Type="nvarchar" MaxLength="50" />
+    <Property Name="numtva" Type="float" />
+    <Property Name="activite" Type="nvarchar" MaxLength="150" />
+    <Property Name="nomresp" Type="nvarchar" MaxLength="50" />
+    <Property Name="formejuridique" Type="nvarchar" MaxLength="50" />
+    <Property Name="matfisc" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sousfamille">
+    <Key>
+      <PropertyRef Name="idsousfamille" />
+    </Key>
+    <Property Name="idsousfamille" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="familleid" Type="int" />
+    <Property Name="familledesign" Type="varchar" MaxLength="50" />
+    <Property Name="sousfamilledesign" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="specialite">
+    <Key>
+      <PropertyRef Name="idsp" />
+    </Key>
+    <Property Name="idsp" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="designation" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'NewCampus.dbo.InfoLivre' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="InfoLivre">
+    <Key>
+      <PropertyRef Name="Rang" />
+    </Key>
+    <Property Name="Rang" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="codeart" Type="nvarchar" MaxLength="50" />
+    <Property Name="titre" Type="nvarchar(max)" />
+    <Property Name="imprimerie" Type="nvarchar(max)" />
+    <Property Name="auteur" Type="nvarchar(max)" />
+    <Property Name="isbn" Type="nvarchar" MaxLength="50" />
+    <Property Name="codeabarre" Type="nvarchar" MaxLength="50" />
+    <Property Name="quantitenstock" Type="float" />
+  </EntityType>
+  <Function Name="findArtbref" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="getartinfo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SelectArticle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="spFindlistartstartby" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="vartext" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="spRapportArt" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="codep" Type="nvarchar" Mode="In" />
+    <Parameter Name="date1" Type="datetime" Mode="In" />
+    <Parameter Name="date2" Type="datetime" Mode="In" />
+  </Function>
+  <EntityContainer Name="NewCampusModelStoreContainer">
+    <EntitySet Name="agent" EntityType="Self.agent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="auteur" EntityType="Self.auteur" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Avoir" EntityType="Self.Avoir" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Banque" EntityType="Self.Banque" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="bon_commande" EntityType="Self.bon_commande" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="bon_livraison" EntityType="Self.bon_livraison" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="bon_sortie" EntityType="Self.bon_sortie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BonRetour" EntityType="Self.BonRetour" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="client" EntityType="Self.client" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CumulEnt" EntityType="Self.CumulEnt" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cumulsortie" EntityType="Self.Cumulsortie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="devis" EntityType="Self.devis" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Dossierpublication" EntityType="Self.Dossierpublication" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Droit" EntityType="Self.Droit" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="emplacement" EntityType="Self.emplacement" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Facture" EntityType="Self.Facture" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FactureDetail" EntityType="Self.FactureDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="facturevente" EntityType="Self.facturevente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="famille" EntityType="Self.famille" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ficheauteur" EntityType="Self.ficheauteur" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="fichesuivi" EntityType="Self.fichesuivi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="fournisseur" EntityType="Self.fournisseur" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Fourniture" EntityType="Self.Fourniture" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ligne_avoir" EntityType="Self.ligne_avoir" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ligne_bc" EntityType="Self.ligne_bc" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ligne_bl" EntityType="Self.ligne_bl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ligne_bs" EntityType="Self.ligne_bs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ligne_devis" EntityType="Self.ligne_devis" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Livre" EntityType="Self.Livre" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Piece_bonret" EntityType="Self.Piece_bonret" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Piece_cumulent" EntityType="Self.Piece_cumulent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Piece_cumulsortie" EntityType="Self.Piece_cumulsortie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="piece_fact" EntityType="Self.piece_fact" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Quittance" EntityType="Self.Quittance" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Reglement" EntityType="Self.Reglement" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="reservation" EntityType="Self.reservation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="societe" EntityType="Self.societe" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sousfamille" EntityType="Self.sousfamille" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="specialite" EntityType="Self.specialite" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="InfoLivre" EntityType="Self.InfoLivre" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [InfoLivre].[Rang] AS [Rang], 
+    [InfoLivre].[codeart] AS [codeart], 
+    [InfoLivre].[titre] AS [titre], 
+    [InfoLivre].[imprimerie] AS [imprimerie], 
+    [InfoLivre].[auteur] AS [auteur], 
+    [InfoLivre].[isbn] AS [isbn], 
+    [InfoLivre].[codeabarre] AS [codeabarre], 
+    [InfoLivre].[quantitenstock] AS [quantitenstock]
+    FROM [dbo].[InfoLivre] AS [InfoLivre]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

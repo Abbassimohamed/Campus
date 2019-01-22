@@ -1,0 +1,845 @@
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\CAMPUSMANOUBA.exe.config
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\CAMPUSMANOUBA.exe
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\CAMPUSMANOUBA.pdb
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\BLL.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DAL.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.BonusSkins.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Charts.v16.1.Core.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Dashboard.v16.1.Core.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Data.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.DataAccess.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Diagram.v16.1.Core.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.PivotGrid.v16.1.Core.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Printing.v16.1.Core.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Sparkline.v16.1.Core.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Utils.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraBars.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraCharts.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraDiagram.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraEditors.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGrid.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraLayout.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraNavBar.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraPivotGrid.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraPrinting.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraReports.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraScheduler.v16.1.Core.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraScheduler.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraScheduler.v16.1.Reporting.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraVerticalGrid.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\EntityFramework.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\EntityFramework.SqlServer.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Map.v16.1.Core.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.RichEdit.v16.1.Core.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraMap.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGauges.v16.1.Core.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGauges.v16.1.Win.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Xpo.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Office.v16.1.Core.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGauges.v16.1.Presets.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.CodeParser.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Pdf.v16.1.Core.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraTreeList.v16.1.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\BLL.pdb
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DAL.pdb
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Dashboard.v16.1.Core.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Data.v16.1.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.DataAccess.v16.1.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Diagram.v16.1.Core.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.PivotGrid.v16.1.Core.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Printing.v16.1.Core.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Sparkline.v16.1.Core.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Utils.v16.1.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraBars.v16.1.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraCharts.v16.1.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraDiagram.v16.1.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraEditors.v16.1.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGrid.v16.1.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraLayout.v16.1.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraNavBar.v16.1.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraPivotGrid.v16.1.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraPrinting.v16.1.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraReports.v16.1.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraScheduler.v16.1.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraScheduler.v16.1.Core.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraScheduler.v16.1.Reporting.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraVerticalGrid.v16.1.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\EntityFramework.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\EntityFramework.SqlServer.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Map.v16.1.Core.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.RichEdit.v16.1.Core.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraMap.v16.1.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGauges.v16.1.Core.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGauges.v16.1.Win.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Xpo.v16.1.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Office.v16.1.Core.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGauges.v16.1.Presets.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Pdf.v16.1.Core.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraTreeList.v16.1.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Dashboard.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Dashboard.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Dashboard.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Dashboard.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Data.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Data.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Data.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Data.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.DataAccess.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.DataAccess.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.DataAccess.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.DataAccess.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.PivotGrid.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.PivotGrid.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.PivotGrid.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.PivotGrid.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Printing.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Printing.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Printing.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Printing.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Utils.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Utils.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Utils.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Utils.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraBars.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraBars.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraBars.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraBars.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraCharts.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraCharts.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraCharts.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraCharts.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraEditors.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraEditors.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraEditors.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraEditors.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraGrid.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraGrid.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraGrid.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraGrid.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraLayout.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraLayout.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraLayout.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraLayout.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraPivotGrid.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraPivotGrid.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraPivotGrid.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraPivotGrid.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraReports.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraReports.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraReports.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraReports.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraScheduler.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraScheduler.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraScheduler.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraScheduler.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraScheduler.v16.1.Reporting.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraScheduler.v16.1.Reporting.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraScheduler.v16.1.Reporting.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraScheduler.v16.1.Reporting.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Map.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Map.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Map.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Map.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraGauges.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraGauges.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraGauges.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraGauges.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Xpo.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Xpo.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Xpo.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Xpo.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraGauges.v16.1.Presets.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraGauges.v16.1.Presets.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraGauges.v16.1.Presets.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraGauges.v16.1.Presets.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.csprojResolveAssemblyReference.cache
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Accueil.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Accueiltile.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.BLNOCommandeBL.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Correctionstock.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.exauteur.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestionavoir.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionCompta.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionReglement.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionSociete.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.DetailArticle.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.DetailAuthor.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Invetappro.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.ReglementForm.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Rapportextraitnew.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Report.BlReport.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Report.EtatdeventeReport.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Report.FactureReport.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Report.Quittancereport.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.UpdateCmd.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.bonSortie.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.ConsultArt.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.ConsulterFourniture.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Consultclt.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Consutaut.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Cumulsfourniture.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Cumulsarticle.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Cumulsortiedon.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Cumulentreedon.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.CumulEntree.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.CumulSort.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.CumulSortiefr.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.CumulEntreefr.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Dossierpub.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.FactureV.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionAdministration.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestiondevis.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionsUtilisateurs.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestionfacturation.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestionbonlivraison.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestioncommande.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionDons.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionStock.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionFourniture.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestionagent.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestionclient.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionFournisseurs.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionAuteurs.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionDeVente.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Listemployees.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Login.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.modifierBL.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.modifierCommande.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Rapportextrait.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Duplicata.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Empmanage.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.FactureVente.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Fichepublication.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Fichesuivie.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.listebls.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.listecmds.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.listefactures.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.NewAuthor.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.NewFourniture.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Nouveau_agent.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.SplashScreen1.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.UpdateArticle.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.SplashScreen2.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.underfamilyadd.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.familyadd.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Specialiteadd.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Consultfr.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Dashboard1.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.NewArticle.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.ModifierClient.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Home.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.NewClient.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.ModifierFr.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.NewFr.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Properties.Resources.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.UpdateFourniture.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm1.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm2.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm3.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm4.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm5.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm6.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm7.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm8.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm9.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.XtraForm1.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.XtraUserControl1.resources
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.csproj.GenerateResource.Cache
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.exe.licenses
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.exe
+E:\dossier click2web last\All final\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.pdb
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\CAMPUSMANOUBA.exe.config
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.exe
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.pdb
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\CAMPUSMANOUBA.exe
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\CAMPUSMANOUBA.pdb
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\BLL.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DAL.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.BonusSkins.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Charts.v16.1.Core.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Dashboard.v16.1.Core.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Data.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.DataAccess.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Diagram.v16.1.Core.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.PivotGrid.v16.1.Core.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Printing.v16.1.Core.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Sparkline.v16.1.Core.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Utils.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraBars.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraCharts.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraDiagram.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraEditors.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGrid.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraLayout.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraNavBar.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraPivotGrid.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraPrinting.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraReports.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraScheduler.v16.1.Core.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraScheduler.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraScheduler.v16.1.Reporting.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraVerticalGrid.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\EntityFramework.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Map.v16.1.Core.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.RichEdit.v16.1.Core.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraMap.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGauges.v16.1.Core.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGauges.v16.1.Win.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Xpo.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Office.v16.1.Core.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGauges.v16.1.Presets.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.CodeParser.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Pdf.v16.1.Core.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraTreeList.v16.1.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\BLL.pdb
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DAL.pdb
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Dashboard.v16.1.Core.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Data.v16.1.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.DataAccess.v16.1.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Diagram.v16.1.Core.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.PivotGrid.v16.1.Core.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Printing.v16.1.Core.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Sparkline.v16.1.Core.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Utils.v16.1.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraBars.v16.1.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraCharts.v16.1.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraDiagram.v16.1.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraEditors.v16.1.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGrid.v16.1.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraLayout.v16.1.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraNavBar.v16.1.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraPivotGrid.v16.1.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraPrinting.v16.1.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraReports.v16.1.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraScheduler.v16.1.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraScheduler.v16.1.Core.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraScheduler.v16.1.Reporting.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraVerticalGrid.v16.1.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\EntityFramework.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Map.v16.1.Core.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.RichEdit.v16.1.Core.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraMap.v16.1.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGauges.v16.1.Core.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGauges.v16.1.Win.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Xpo.v16.1.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Office.v16.1.Core.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGauges.v16.1.Presets.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Pdf.v16.1.Core.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraTreeList.v16.1.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Dashboard.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Dashboard.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Dashboard.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Dashboard.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Data.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Data.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Data.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Data.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.DataAccess.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.DataAccess.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.DataAccess.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.DataAccess.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.PivotGrid.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.PivotGrid.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.PivotGrid.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.PivotGrid.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Printing.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Printing.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Printing.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Printing.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Sparkline.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Sparkline.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Sparkline.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Sparkline.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Utils.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Utils.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Utils.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Utils.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraBars.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraBars.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraBars.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraBars.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraCharts.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraCharts.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraCharts.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraCharts.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraEditors.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraEditors.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraEditors.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraEditors.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraGrid.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraGrid.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraGrid.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraGrid.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraLayout.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraLayout.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraLayout.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraLayout.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraNavBar.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraNavBar.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraNavBar.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraNavBar.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraPivotGrid.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraPivotGrid.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraPivotGrid.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraPivotGrid.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraPrinting.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraPrinting.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraPrinting.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraPrinting.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraReports.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraReports.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraReports.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraReports.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraScheduler.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraScheduler.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraScheduler.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraScheduler.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraScheduler.v16.1.Reporting.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraScheduler.v16.1.Reporting.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraScheduler.v16.1.Reporting.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraScheduler.v16.1.Reporting.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Map.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Map.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Map.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Map.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraGauges.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraGauges.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraGauges.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraGauges.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Xpo.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Xpo.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Xpo.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Xpo.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraGauges.v16.1.Presets.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraGauges.v16.1.Presets.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraGauges.v16.1.Presets.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraGauges.v16.1.Presets.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraTreeList.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraTreeList.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraTreeList.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraTreeList.v16.1.resources.dll
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.csprojResolveAssemblyReference.cache
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Accueil.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Accueiltile.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.BLNOCommandeBL.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Correctionstock.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.exauteur.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestionavoir.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionCompta.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionReglement.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionSociete.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.DetailArticle.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.DetailAuthor.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Invetappro.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.ReglementForm.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Rapportextraitnew.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Report.BlReport.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Report.EtatdeventeReport.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Report.FactureReport.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Report.Quittancereport.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.UpdateCmd.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.bonSortie.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.ConsultArt.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.ConsulterFourniture.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Consultclt.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Consutaut.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Cumulsfourniture.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Cumulsarticle.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Cumulsortiedon.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Cumulentreedon.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.CumulEntree.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.CumulSort.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.CumulSortiefr.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.CumulEntreefr.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Dossierpub.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.FactureV.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionAdministration.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestiondevis.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionsUtilisateurs.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestionfacturation.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestionbonlivraison.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestioncommande.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionDons.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionStock.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionFourniture.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestionagent.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestionclient.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionFournisseurs.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionAuteurs.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionDeVente.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Listemployees.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Login.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.modifierBL.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.modifierCommande.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Rapportextrait.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Duplicata.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Empmanage.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.FactureVente.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Fichepublication.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Fichesuivie.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.listebls.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.listecmds.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.listefactures.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.NewAuthor.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.NewFourniture.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Nouveau_agent.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.SplashScreen1.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.UpdateArticle.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.SplashScreen2.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.underfamilyadd.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.familyadd.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Specialiteadd.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Consultfr.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Dashboard1.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.NewArticle.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.ModifierClient.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Home.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.NewClient.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.ModifierFr.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.NewFr.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Properties.Resources.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.UpdateFourniture.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm1.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm2.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm3.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm4.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm5.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm6.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm7.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm8.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm9.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.XtraForm1.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.XtraUserControl1.resources
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.csproj.GenerateResource.Cache
+C:\Users\lenovo G50\Desktop\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.exe.licenses
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\CAMPUSMANOUBA.exe.config
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.exe
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.pdb
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\CAMPUSMANOUBA.exe
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\CAMPUSMANOUBA.pdb
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\BLL.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DAL.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\EntityFramework.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\EntityFramework.SqlServer.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Map.v16.1.Core.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.RichEdit.v16.1.Core.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraMap.v16.1.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGauges.v16.1.Core.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGauges.v16.1.Win.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Xpo.v16.1.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Office.v16.1.Core.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGauges.v16.1.Presets.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.CodeParser.v16.1.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Pdf.v16.1.Core.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraTreeList.v16.1.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\BLL.pdb
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DAL.pdb
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Dashboard.v16.1.Core.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Data.v16.1.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.DataAccess.v16.1.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Diagram.v16.1.Core.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.PivotGrid.v16.1.Core.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Printing.v16.1.Core.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Sparkline.v16.1.Core.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Utils.v16.1.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraBars.v16.1.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraCharts.v16.1.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraDiagram.v16.1.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraEditors.v16.1.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGrid.v16.1.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraLayout.v16.1.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraNavBar.v16.1.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraPivotGrid.v16.1.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraPrinting.v16.1.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraReports.v16.1.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraScheduler.v16.1.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraScheduler.v16.1.Core.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraScheduler.v16.1.Reporting.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraVerticalGrid.v16.1.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\EntityFramework.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\EntityFramework.SqlServer.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Map.v16.1.Core.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.RichEdit.v16.1.Core.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraMap.v16.1.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGauges.v16.1.Core.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGauges.v16.1.Win.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Xpo.v16.1.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Office.v16.1.Core.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraGauges.v16.1.Presets.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Pdf.v16.1.Core.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.XtraTreeList.v16.1.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Dashboard.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Dashboard.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Dashboard.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Dashboard.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Data.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Data.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Data.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Data.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.DataAccess.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.DataAccess.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.DataAccess.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.DataAccess.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.PivotGrid.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.PivotGrid.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.PivotGrid.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.PivotGrid.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Printing.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Printing.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Printing.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Printing.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Utils.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Utils.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Utils.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Utils.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraBars.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraBars.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraBars.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraBars.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraCharts.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraCharts.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraCharts.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraCharts.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraEditors.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraEditors.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraEditors.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraEditors.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraGrid.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraGrid.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraGrid.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraGrid.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraLayout.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraLayout.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraLayout.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraLayout.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraPivotGrid.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraPivotGrid.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraPivotGrid.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraPivotGrid.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraReports.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraReports.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraReports.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraReports.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraScheduler.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraScheduler.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraScheduler.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraScheduler.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraScheduler.v16.1.Reporting.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraScheduler.v16.1.Reporting.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraScheduler.v16.1.Reporting.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraScheduler.v16.1.Reporting.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Map.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Map.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Map.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Map.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraGauges.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraGauges.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraGauges.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraGauges.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Xpo.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Xpo.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Xpo.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Xpo.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraGauges.v16.1.Presets.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraGauges.v16.1.Presets.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraGauges.v16.1.Presets.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraGauges.v16.1.Presets.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\de\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\es\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ja\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\bin\Debug\ru\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.csprojResolveAssemblyReference.cache
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Accueil.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Accueiltile.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.BLNOCommandeBL.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Correctionstock.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.exauteur.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestionavoir.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionCompta.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionReglement.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionSociete.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.DetailArticle.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.DetailAuthor.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Invetappro.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.ReglementForm.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Rapportextraitnew.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Report.BlReport.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Report.EtatdeventeReport.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Report.FactureReport.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Report.Quittancereport.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.UpdateCmd.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.bonSortie.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.ConsultArt.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.ConsulterFourniture.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Consultclt.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Consutaut.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Cumulsfourniture.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Cumulsarticle.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Cumulsortiedon.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Cumulentreedon.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.CumulEntree.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.CumulSort.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.CumulSortiefr.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.CumulEntreefr.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Dossierpub.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.FactureV.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionAdministration.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestiondevis.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionsUtilisateurs.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestionfacturation.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestionbonlivraison.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestioncommande.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionDons.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionStock.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionFourniture.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestionagent.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Gestionclient.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionFournisseurs.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionAuteurs.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.GestionDeVente.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Listemployees.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Login.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.modifierBL.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.modifierCommande.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Rapportextrait.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Duplicata.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Empmanage.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.FactureVente.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Fichepublication.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Fichesuivie.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.listebls.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.listecmds.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.listefactures.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.NewAuthor.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.NewFourniture.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Nouveau_agent.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.SplashScreen1.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.UpdateArticle.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.SplashScreen2.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.underfamilyadd.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.familyadd.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Specialiteadd.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Consultfr.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Dashboard1.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.NewArticle.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.ModifierClient.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Home.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.NewClient.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.ModifierFr.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.NewFr.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.Properties.Resources.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.UpdateFourniture.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm1.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm2.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm3.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm4.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm5.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm6.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm7.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm8.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.WaitForm9.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.XtraForm1.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.XtraUserControl1.resources
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.csproj.GenerateResource.Cache
+D:\bureau click\copie manouba\newlooksmartclick\CAMPUSMANOUBA\obj\Debug\CAMPUSMANOUBA.exe.licenses
